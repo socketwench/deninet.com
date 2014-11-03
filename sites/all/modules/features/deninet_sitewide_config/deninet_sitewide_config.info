@@ -1,0 +1,16 @@
+name = deninet_sitewide_config
+description = Sitewide configuration for deninet.com
+core = 7.x
+package = deninet
+version = 7.x-1.0-beta1
+project = deninet_sitewide_config
+dependencies[] = navbar
+features[features_api][] = api:2
+features[user_permission][] = access navbar
+features[user_permission][] = administer shortcuts
+features[user_permission][] = customize shortcut links
+features[user_permission][] = switch shortcut sets
+features_exclude[dependencies][features] = features
+features_exclude[dependencies][shortcut] = shortcut
+no autodetect = 1
+project path = sites/all/modules/features
