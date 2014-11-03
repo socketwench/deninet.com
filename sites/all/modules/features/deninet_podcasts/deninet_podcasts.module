@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the deninet_podcasts feature.
+ */
+
+include_once 'deninet_podcasts.features.inc';
