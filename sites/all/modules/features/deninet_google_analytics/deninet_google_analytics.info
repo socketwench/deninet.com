@@ -1,0 +1,13 @@
+name = deninet google analytics
+core = 7.x
+package = deninet
+version = 7.x-1.0-beta1
+project = deninet_google_analytics
+dependencies[] = googleanalytics
+features[features_api][] = api:2
+features[user_permission][] = administer google analytics
+features[user_permission][] = opt-in or out of tracking
+features[user_permission][] = use PHP for tracking visibility
+features_exclude[dependencies][features] = features
+no autodetect = 1
+project path = sites/all/modules/features
