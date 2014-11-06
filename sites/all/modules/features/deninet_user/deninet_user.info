@@ -1,0 +1,16 @@
+name = deninet User
+core = 7.x
+package = deninet
+version = 7.x-1.0-beta1
+project = deninet_user
+dependencies[] = features
+dependencies[] = user
+features[features_api][] = api:2
+features[user_permission][] = access user profiles
+features[user_permission][] = administer permissions
+features[user_permission][] = administer users
+features[user_permission][] = cancel account
+features[user_permission][] = change own username
+features[user_permission][] = select account cancellation method
+features[user_role][] = staff
+project path = sites/all/modules/features
