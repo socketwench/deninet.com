@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the deninet Sitewide Config feature.
  */
+
+include_once 'deninet_sitewide_config.features.inc';

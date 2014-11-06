@@ -10,6 +10,12 @@
 function deninet_user_user_default_roles() {
   $roles = array();
 
+  // Exported role: administrator.
+  $roles['administrator'] = array(
+    'name' => 'administrator',
+    'weight' => 2,
+  );
+
   // Exported role: staff.
   $roles['staff'] = array(
     'name' => 'staff',
