@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the deninet path feature.
+ */
+
+include_once 'deninet_path.features.inc';

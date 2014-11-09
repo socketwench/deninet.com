@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the deninet views feature.
+ */
+
+include_once 'deninet_views.features.inc';

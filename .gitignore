@@ -9,3 +9,5 @@ files/*
 .idea
 .idea/*
 .DS_Store
+.sass-cache
+.sass-cache/*

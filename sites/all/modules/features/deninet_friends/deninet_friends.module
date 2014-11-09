@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the deninet friends feature.
+ */
+
+include_once 'deninet_friends.features.inc';

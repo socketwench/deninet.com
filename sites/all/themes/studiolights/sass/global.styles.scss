@@ -27,10 +27,33 @@
  */
 
 /* =============================================================================
+ *   Font faces
+ * ========================================================================== */
+
+@font-face {
+  font-family: 'League Gothic';
+  src: url('../css/fonts/LeagueGothic-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url('../css/fonts/Oswald.woff') format('woff');
+}
+@font-face {
+  font-family: 'Comfortaa';
+  src: local('Comfortaa'), url('../css/fonts/Comfortaa.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* =============================================================================
  *   Base
  * ========================================================================== */
 
-/* 
+/*
  * To preserve theme settings never apply font properties to the HTML element.
  * This is critically important if you are using the Responsive JavaScript
  * feature as this relies on being able to set a pseudo font family on the HTML
@@ -43,8 +66,8 @@ html {
 }
 
 body {
-  font-family: $sans-serif-small; // Set from _custom.scss font variables
-  font-size: 87.5%;
+  background: $body;
+  @include deninet-font-body;
 }
 
 
@@ -52,10 +75,14 @@ body {
  *   HTML Elements
  * ========================================================================== */
 
-h1 {}
+h1 {
+  @include deninet-font-header();
+}
 
 
-h2 {}
+h2 {
+  @include deninet-font-header(16px);
+}
 
 
 h3 {}
@@ -141,46 +168,84 @@ var {
   font-family: $mono;
 }
 
+pre {
+  margin-left: 2em;
+  border: solid 1px rgb(204, 204, 204);
+  background: #fff;
+  padding: 1em;
+}
+
+code {
+  font-weight: bold;
+}
+
+hr {
+  border: .3em dotted gray;
+  height: 0;
+  width: .87em;
+}
 
 /* =============================================================================
  *   Wrappers
  * ========================================================================== */
 
 /*
- * Page wrapper, includes the .container class which sets the overall page or section width
- * Main wrapper in page.tpl.php, the .container class sets the width of the page, do not add width to it!
+ * Outer wrappers:
+ * - #page-wrapper: body > #page-wrapper
+ * - #page: body > #page-wrapper > #page
+ * - .container: body > #page-wrapper > #page.container
+ *
+ * The .container class holds the page width value from theme settings. You can
+ * style the .container class but do not add width such as border, padding,
+ * margins etc.
  */
+
+#page-wrapper {}
+
+
 #page  {
-  .container {}
+  &.container {}
 }
 
 
 /*
  * Wraps all header elements - branding and .region-header
  */
-#header {}
+#header {
+  width: 96%;
+  padding: 2%;
+  color: #eee;
+  background: url(images/stripe2.png) bottom left repeat-x #333;
+  position: relative;
+}
 
 
 /*
  * Wraps the sidebars the content column
  */
-#columns {}
+#columns {
+  background: #eee;
+}
 
 
 /*
  * Main content column wrapper
  */
-#content-column {}
+#content-column {
+  margin-top: 1em;
+}
 
 
 /*
- * Wraps the main-content-header, the content region and feed-icons. Use this wrapper to style the entire main content column
+ * Wraps the main-content-header, the content region and feed-icons. Use this
+ * wrapper to style the entire main content column
  */
 #main-content {}
 
 
 /*
- * Wraps the content region, avoid applying styles to this wrapper, its used mainly for position and invisible gutters and can be problematic to style
+ * Wraps the content region, avoid applying styles to this wrapper, its used
+ * mainly for position and invisible gutters and can be problematic to style
  */
 #content {}
 
@@ -201,17 +266,9 @@ var {
  * Full Width Wrappers
  * These are used in the optional page--full-width-wrappers.tpl.php template.
  * All have internal .container classes. In the full width wrapper template the
- * .container classes set the width or max-width of the contained element - you
- * can style this but never add any width/margin/padding/borders etc to .container
+ * .container classes set the width or max-width - you can style this but never
+ * add any width/margin/padding/borders etc to .container
  */
-
-/*
- * Wraps #page
- */
-#page-wrapper {
-  .container {}
-}
-
 
 /*
  * Wraps the leaderboard
@@ -305,6 +362,7 @@ var {
  */
 #logo {
   padding: 10px 0;
+  float: left;
 
   img {
     vertical-align: bottom;
@@ -313,7 +371,7 @@ var {
 
 
 /*
- * Wrapper for the site name and slogan (hgroup)
+ * Wrapper for the site name and slogan
  */
 #name-and-slogan {}
 
@@ -324,7 +382,11 @@ var {
 #site-name {
   margin: 0;
 
+  @include deninet-font-body(38px, lighter);
+  text-shadow: -1px -2px 0px #000;
+
   a {
+    color: #eee;
 
     &:link,
     &:visited {
@@ -333,7 +395,7 @@ var {
 
     &:hover,
     &:focus {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 }
@@ -422,6 +484,28 @@ ul.links {
  */
 .search-results {
   margin: 0;
+  padding: 0;
+}
+
+
+/*
+ * Attribution message and link
+ */
+.attribution {
+  display: block;
+  opacity: 0.65;
+  padding: 1em 0;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
 }
 
 
@@ -480,19 +564,30 @@ ul.links {
 /*
  * Sidebars - targets both
  */
-.sidebar {}
+.sidebar {
+  .block {
+    margin: 0 1em 20px 2em;
+    background: #ddd;
+    border-right: solid 2px #bbb;
+    border-bottom: solid 2px #bbb;
+  }
+}
 
 
 /*
  * First sidebar
  */
-.region-sidebar-first {}
+.region-sidebar-first {
+  margin-top: 1em; // Matches #content.
+}
 
 
 /*
  * Second sidebar
  */
-.region-sidebar-second {}
+.region-sidebar-second {
+  margin-top: 1em; // Matches #content.
+}
 
 
 /*
@@ -504,7 +599,23 @@ ul.links {
 /*
  * Footer region
  */
-.region-footer {}
+.region-footer {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 1%;
+  font-family: 'Comfortaa';
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  border-top: solid 2px #0b0b0b;
+  color: #eee;
+  background: #1b1b1b;
+
+  a {
+    color: #f00;
+  }
+}
 
 
 /* =============================================================================
@@ -513,6 +624,7 @@ ul.links {
 
 a {
   text-decoration: none;
+  color: #600;
 
   &:link,
   &:visited {}
@@ -531,13 +643,38 @@ a {
  *   Primary, Secondary and Menu Bar region menus
  * ========================================================================== */
 
-/*
- * Use one of the following id's for granular control:
- *  - #menu-bar (menu bar region)
- *  - #primary-menu (main menu)
- *  - #secondary-menu (secondary/user menu)
- * You can target all of these with .nav or div[id$="menu-bar"]
- */
+#primary-menu-bar {
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 0;
+  padding-left: 190px;
+  font-family: Oswald;
+  font-size: 20px;
+}
+
+#primary-menu-bar li.active {
+}
+
+#primary-menu-bar li.active a,
+#primary-menu-bar li.active a:hover {
+  color: red;
+  border-bottom: solid 0.2em red;
+  text-decoration: none;
+}
+
+#primary-menu-bar li a,
+#secondary-menu-bar li a {
+  color: #fff;
+}
+
+#secondary-menu-bar {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: Oswald;
+  font-size: 20px;
+  margin-bottom: 0.2em; // Match primary menu bottom border.
+}
 
 .nav {
   clear: both;
@@ -563,9 +700,9 @@ a {
     display: block;
     white-space: nowrap;
     padding: 0 10px;
-    
+
     &:visited {}
-    
+
     &:hover,
     &:focus {}
   }
@@ -680,6 +817,30 @@ ul.sf-menu {
 
 
 /* =============================================================================
+ *   Menu Toggles
+ * ========================================================================== */
+// .at-mt is a page class
+.at-mt {
+  .at-menu-toggle,
+  .at-menu-toggle ul,
+  .at-menu-toggle ul.menu {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .at-menu-toggle-button {
+    margin: 0;
+  }
+
+  .at-menu-toggle ul a {
+    padding: 0 10px;
+    white-space: nowrap;
+  }
+}
+
+
+/* =============================================================================
  *   Menus, usually blocks
  * ========================================================================== */
 
@@ -724,10 +885,10 @@ ul.menu {
 
 /* If li.content exists it's a problem, so reset the padding */
 .block .menu li.content {
-  padding: 0;   
+  padding: 0;
 }
 
- 
+
 /* =============================================================================
  *   Book navigation menu
  * ========================================================================== */
@@ -745,7 +906,7 @@ ul.menu {
     min-width: 2em;
     white-space: nowrap;
   }
-  
+
   .menu {
     margin-left: 0;
   }
@@ -782,6 +943,11 @@ ul.menu {
   li {
     list-style: none;
     display: inline;
+    padding-right: 0.3em;
+
+    .crumb-separator {
+      padding-right: 0.3em;
+    }
   }
 
   li.crumb-first {}
@@ -912,12 +1078,14 @@ ul.pager li {
 
 #tasks {
   margin-bottom: 15px;
+  font-family: Oswald;
 }
 
 
 ul.primary {
-  border-bottom-color: $border;
-  margin: 20px 0;
+  border-bottom: none;
+  border-top: solid 1px #ccc;
+  margin: 0.2em 0 1em 0;
   padding: 0 0 0 5px;
 
   li {
@@ -926,8 +1094,11 @@ ul.primary {
     margin: 0 1px -1px;
 
     a {
-      background-color: $ultralight;
-      border-color: $border;
+      border-top: solid 0.3em transparent;
+      border-right: none;
+      border-bottom: none;
+      border-left: none;
+      background: none;
       margin-right: 1px;
       padding: 0 10px;
       display: block;
@@ -937,8 +1108,11 @@ ul.primary {
 
       &:hover,
       &:focus {
-        background-color: $light;
-        border-color: $border;
+        border-top: solid 0.3em #ddd;
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+        background: none;
       }
     }
   }
@@ -947,8 +1121,11 @@ ul.primary {
     a,
     a:hover,
     a:focus {
-      background-color: $page;
-      border-bottom-color: $page;
+      border-top: solid 0.3em #ccc;
+      border-right: none;
+      border-bottom: none;
+      border-left: none;
+      background: none;
     }
   }
 }
@@ -1006,8 +1183,13 @@ ul.action-links {
 /*
  * When labels are set to inline in field display settings the clearfix class is automatically added
  */
-.field-label-inline {}
+.field-label-inline {
 
+  /* Remove the margin on inline field lables to preserve vertical formatting */
+  .field-label {
+    margin: 0;
+  }
+}
 
 /*
  * Labels are h2 in Adaptivetheme. Use a strong selector to mitigate unwanted ineritance issues
@@ -1142,7 +1324,62 @@ ul.action-links {
 
 .field-name-field-image {}
 
-.field-name-field-tags {}
+.field-name-field-tags {
+  ul {
+    list-style: none;
+    display: inline;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    background: #aaa;
+    border-radius: 3px 0 0 3px;
+    color: #fff;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 2em 0 1em;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+  }
+
+  a:before {
+    background: #eee;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    right: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+  }
+
+  a:after {
+    background: #eee;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #aaa;
+    border-top: 13px solid transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  a:hover {
+    background: #900;
+  }
+
+  a:hover:after {
+    border-color: transparent transparent transparent #900;
+  }
+}
 
 
 /*
@@ -1152,8 +1389,20 @@ ul.action-links {
 
 
 /*
- * Image Alignment Theme Settings - included here so you can easily override 
+ * Image Alignment Theme Settings - included here so you can easily override
  */
+
+figure {
+  float: right;
+  padding-left: 2em;
+  padding-bottom: 0.3em;
+  clear: right;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+}
 
 /*
  * Float none setting
@@ -1205,7 +1454,10 @@ ul.action-links {
 /*
  * Inner wrapper for most blocks, good for margin, padding and borders, block_system_main does not have it
  */
-.block-inner {}
+.block-inner {
+  margin: 0;
+  padding: 0;
+}
 
 
 /*
@@ -1237,13 +1489,21 @@ ul.action-links {
  */
 .block-title {
   margin: 0;
+  border-bottom: solid 1px #c28e8e;
+  padding: 0.1em 0.3em 0 0.3em;
+
+  @include deninet-font-header(22px);
+
 }
 
 
 /*
  * Block content wrapper
  */
-.block-content {}
+.block-content {
+  padding: 0 0.3em 0 0.3em;
+
+}
 
 
 /*
@@ -1450,7 +1710,10 @@ ul.action-links {
     margin: 0;
   }
 
-  .user-picture {}
+  .user-picture {
+    float: right;
+    padding: 0 0 0.3em 1em;
+  }
 
   .submitted {
 
@@ -1524,6 +1787,9 @@ ul.action-links {
  */
 .comment {
   margin-bottom: 20px;
+  padding: 0.3em;
+  display: table;
+  vertical-align: top;
 
   &.first {}
 
@@ -1533,7 +1799,35 @@ ul.action-links {
 
   &.even {}
 
-  .user-picture {}
+  .user-picture {
+    width: 100px;
+  }
+
+  .author-datetime {
+    font-family: Oswald;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  footer{
+    display: table-cell;
+    vertical-align: top;
+    overflow: hidden;
+    padding: 0 30px 0 0;
+    background: url('../css/images/comment-triangle.png') top right no-repeat;
+    font-family: Oswald;
+  }
+
+  nav{
+    background: #fff;
+    font-family: Oswald;
+    letter-spacing: 0.03em;
+    padding-bottom: 1em;
+
+    ul{
+      border-top: solid 1px #ccc;
+    }
+  }
 
   .submitted {
 
@@ -1546,9 +1840,29 @@ ul.action-links {
 
   .user-signature {}
 
-  ul.links {}
+  ul.links {
+    padding-left: 0.5em;
+  }
 }
 
+.comment-content {
+  display: table-cell;
+  vertical-align: top;
+  position: relative;
+  width: 100%;
+  background: #fff;
+}
+
+.comment-header{
+  background: #fff;
+  font-family: Oswald;
+  font-size: 16px;
+  padding: 0.3em 0.5em;
+}
+
+.field-name-comment-body{
+  padding: 0.3em 0.5em;
+}
 
 /*
  * Comment title
@@ -1605,7 +1919,7 @@ ul.action-links {
 /*
  * Wrapper for a form element (or group of form elements) and its label
  */
-.form-item { 
+.form-item {
 
   input.error,
   textarea.error,
@@ -1617,7 +1931,7 @@ ul.action-links {
     font-weight: 700;
   }
 
-  label.option { 
+  label.option {
   }
 
   .description {
@@ -1642,7 +1956,7 @@ ul.action-links {
 /*
  * The submit button
  */
-.form-submit { 
+.form-submit {
 }
 
 
@@ -1663,14 +1977,14 @@ fieldset {
 /*
  * Tips for Drupal's input formats
  */
-.tips { 
+.tips {
 }
 
 
 /*
  * Buttons used by contrib modules like Media
  */
-a.button { 
+a.button {
   @include appearance(button);
 }
 
@@ -1790,13 +2104,13 @@ tr {
  * Core sets white-space to nowrap, which makes no sense
  */
 #forum td {
-  .created,
-  .posts,
-  .topics,
-  .last-reply,
-  .replies,
-  .pager {
-     white-space: normal;
+  &.created,
+  &.posts,
+  &.topics,
+  &.last-reply,
+  &.replies,
+  &.pager {
+    white-space: normal;
   }
 }
 
@@ -1818,9 +2132,11 @@ div {
   }
 
   &.status {
+    background: url('../css/images/notice.png') top repeat-x #ddffdd;
   }
 
   &.warning {
+    background: url('../css/images/warning.png') top repeat-x #fbf5d6;
   }
 }
 

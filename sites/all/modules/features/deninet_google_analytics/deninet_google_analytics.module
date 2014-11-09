@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the deninet google analytics feature.
+ */
+
+include_once 'deninet_google_analytics.features.inc';

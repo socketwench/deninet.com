@@ -1,0 +1,14 @@
+name = deninet search
+core = 7.x
+package = deninet
+version = 7.x-1.0-beta1
+project = deninet_search
+dependencies[] = deninet_sitewide_config
+dependencies[] = search
+features[features_api][] = api:2
+features[user_permission][] = administer search
+features[user_permission][] = search content
+features[user_permission][] = use advanced search
+features_exclude[dependencies][features] = features
+no autodetect = 1
+project path = sites/all/modules/features
