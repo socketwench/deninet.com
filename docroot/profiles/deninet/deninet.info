@@ -1,0 +1,41 @@
+name = deninet
+description = Default installation profile for deninet.com.
+version = 7.3
+core = 7.x
+
+; Core Dependencies
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Features
+dependencies[] = deninet_blog
+dependencies[] = deninet_comments
+dependencies[] = deninet_content
+dependencies[] = deninet_friends
+dependencies[] = deninet_google_analytics
+dependencies[] = deninet_media
+dependencies[] = deninet_path
+dependencies[] = deninet_picture
+dependencies[] = deninet_podcasts
+dependencies[] = deninet_search
+dependencies[] = deninet_sitewide_config
+dependencies[] = deninet_user
+dependencies[] = deninet_views
+dependencies[] = deninet_wiki
