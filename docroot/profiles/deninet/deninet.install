@@ -23,7 +23,18 @@ function deninet_install() {
 function deninet_install_tasks() {
   $tasks = array();
 
-  // @todo Add tasks here.
+  // THIS MUST BE THE LAST TASK.
+  $tasks['deninet_rebuild_permissions'] = array(
+    'display' => TRUE,
+    'type' => 'normal',
+  );
 
   return $tasks;
+}
+
+/**
+ * Rebuild the node access permissions for flag_friend_access.
+ */
+function deninet_rebuild_permissions() {
+  node_access_rebuild();
 }
