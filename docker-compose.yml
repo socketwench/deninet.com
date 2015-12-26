@@ -23,3 +23,10 @@ cli:
    links:
       - db
       - web
+browser:
+  hostname: browser
+  image: selenium/standalone-firefox
+  links:
+    - web
+  ports:
+    - "4444:4444"
