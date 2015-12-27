@@ -10,7 +10,7 @@
 function deninet_podcasts_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-audio-body'
+  // Exported field_instance: 'node-audio-body'.
   $field_instances['node-audio-body'] = array(
     'bundle' => 'audio',
     'default_value' => NULL,
@@ -54,7 +54,7 @@ function deninet_podcasts_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-audio-field_sound_file'
+  // Exported field_instance: 'node-audio-field_sound_file'.
   $field_instances['node-audio-field_sound_file'] = array(
     'bundle' => 'audio',
     'deleted' => 0,
@@ -114,7 +114,7 @@ function deninet_podcasts_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-audio-field_tags'
+  // Exported field_instance: 'node-audio-field_tags'.
   $field_instances['node-audio-field_tags'] = array(
     'bundle' => 'audio',
     'default_value' => NULL,

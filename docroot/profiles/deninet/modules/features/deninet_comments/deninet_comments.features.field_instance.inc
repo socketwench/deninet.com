@@ -10,7 +10,7 @@
 function deninet_comments_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'comment-comment_node_audio-comment_body'
+  // Exported field_instance: 'comment-comment_node_audio-comment_body'.
   $field_instances['comment-comment_node_audio-comment_body'] = array(
     'bundle' => 'comment_node_audio',
     'default_value' => NULL,
@@ -43,7 +43,7 @@ function deninet_comments_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'comment-comment_node_blog-comment_body'
+  // Exported field_instance: 'comment-comment_node_blog-comment_body'.
   $field_instances['comment-comment_node_blog-comment_body'] = array(
     'bundle' => 'comment_node_blog',
     'default_value' => NULL,
@@ -76,7 +76,7 @@ function deninet_comments_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'comment-comment_node_book-comment_body'
+  // Exported field_instance: 'comment-comment_node_book-comment_body'.
   $field_instances['comment-comment_node_book-comment_body'] = array(
     'bundle' => 'comment_node_book',
     'default_value' => NULL,
@@ -109,7 +109,7 @@ function deninet_comments_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'comment-comment_node_picture-comment_body'
+  // Exported field_instance: 'comment-comment_node_picture-comment_body'.
   $field_instances['comment-comment_node_picture-comment_body'] = array(
     'bundle' => 'comment_node_picture',
     'default_value' => NULL,

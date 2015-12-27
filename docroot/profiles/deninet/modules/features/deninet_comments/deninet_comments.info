@@ -36,4 +36,4 @@ features_exclude[dependencies][features] = features
 features_exclude[dependencies][ctools] = ctools
 features_exclude[dependencies][strongarm] = strongarm
 no autodetect = 1
-project path = sites/all/modules/features
+project path = profiles/deninet/modules/features

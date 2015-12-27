@@ -31,4 +31,4 @@ features_exclude[field_base][body] = body
 features_exclude[field_base][field_tags] = field_tags
 features_exclude[field_base][field_deninet6_nid] = field_deninet6_nid
 no autodetect = 1
-project path = sites/all/modules/features
+project path = profiles/deninet/modules/features

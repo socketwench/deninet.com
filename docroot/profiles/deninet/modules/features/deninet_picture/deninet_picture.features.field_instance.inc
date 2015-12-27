@@ -10,7 +10,7 @@
 function deninet_picture_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-picture-body'
+  // Exported field_instance: 'node-picture-body'.
   $field_instances['node-picture-body'] = array(
     'bundle' => 'picture',
     'default_value' => NULL,
@@ -54,7 +54,7 @@ function deninet_picture_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-picture-field_deninet6_nid'
+  // Exported field_instance: 'node-picture-field_deninet6_nid'.
   $field_instances['node-picture-field_deninet6_nid'] = array(
     'bundle' => 'picture',
     'default_value' => NULL,
@@ -94,7 +94,7 @@ function deninet_picture_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-picture-field_picture_file'
+  // Exported field_instance: 'node-picture-field_picture_file'.
   $field_instances['node-picture-field_picture_file'] = array(
     'bundle' => 'picture',
     'deleted' => 0,
@@ -158,7 +158,7 @@ function deninet_picture_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-picture-field_tags'
+  // Exported field_instance: 'node-picture-field_tags'.
   $field_instances['node-picture-field_tags'] = array(
     'bundle' => 'picture',
     'default_value' => NULL,
