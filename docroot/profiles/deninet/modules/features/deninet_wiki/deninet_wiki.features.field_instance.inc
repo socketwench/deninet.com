@@ -10,7 +10,7 @@
 function deninet_wiki_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-book-body'
+  // Exported field_instance: 'node-book-body'.
   $field_instances['node-book-body'] = array(
     'bundle' => 'book',
     'default_value' => NULL,
@@ -54,7 +54,7 @@ function deninet_wiki_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-book-field_book_image'
+  // Exported field_instance: 'node-book-field_book_image'.
   $field_instances['node-book-field_book_image'] = array(
     'bundle' => 'book',
     'deleted' => 0,
@@ -100,7 +100,7 @@ function deninet_wiki_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-book-field_deninet6_nid'
+  // Exported field_instance: 'node-book-field_deninet6_nid'.
   $field_instances['node-book-field_deninet6_nid'] = array(
     'bundle' => 'book',
     'default_value' => NULL,
@@ -140,7 +140,7 @@ function deninet_wiki_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-book-field_tags'
+  // Exported field_instance: 'node-book-field_tags'.
   $field_instances['node-book-field_tags'] = array(
     'bundle' => 'book',
     'default_value' => NULL,
