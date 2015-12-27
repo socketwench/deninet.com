@@ -20,9 +20,11 @@ cli:
    build: .docker/cli
    volumes:
       - ./docroot:/var/www
+      - ./tests:/var/tests
    links:
       - db
       - web
+      - browser
 browser:
   hostname: browser
   image: selenium/standalone-firefox
