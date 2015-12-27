@@ -41,10 +41,10 @@ function deninet_friends_flag_default_flags() {
     'flag_confirmation' => 'Are you sure you want to add [user:name] to your list of friends?',
     'unflag_confirmation' => 'Are you sure you want to remove [user:name] from your list of friends?',
     'module' => 'deninet_friends',
-    'api_version' => 3,
     'locked' => array(
       0 => 'name',
     ),
+    'api_version' => 3,
   );
   return $flags;
 

@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the deninet Content feature.
  */
+
+include_once 'deninet_content.features.inc';
