@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the deninet Content feature.
+ */
+
+include_once 'deninet_content.features.inc';

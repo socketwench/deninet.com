@@ -11,13 +11,24 @@ db:
    ports:
       - 3306:3306
    environment:
-      - MYSQL_DB=drupal8
-      - MYSQL_USER=drupal
+      - MYSQL_DB=deninet_com
+      - MYSQL_USER=deninet
       - MYSQL_PASS=thisisawesome
+   volumes:
+      - /var/lib/mysql
 cli:
    build: .docker/cli
    volumes:
       - ./docroot:/var/www
+      - ./tests:/var/tests
    links:
       - db
       - web
+      - browser
+browser:
+  hostname: browser
+  image: selenium/standalone-firefox
+  links:
+    - web
+  ports:
+    - "4444:4444"
