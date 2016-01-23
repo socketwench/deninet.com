@@ -50,7 +50,7 @@ function deninet_blog_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 1,
+      'weight' => 2,
     ),
   );
 
@@ -100,55 +100,22 @@ function deninet_blog_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-blog-field_deninet6_nid'.
-  $field_instances['node-blog-field_deninet6_nid'] = array(
+  // Exported field_instance: 'node-blog-field_topic'.
+  $field_instances['node-blog-field_topic'] = array(
     'bundle' => 'blog',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'tid' => 'autocreate',
+        'vid' => 2,
+        'name' => 'None',
+        'vocabulary_machine_name' => 'topics',
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 1,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_deninet6_nid',
-    'label' => 'deninet6_nid',
-    'required' => 0,
-    'settings' => array(
-      'max' => '',
-      'min' => '',
-      'prefix' => '',
-      'suffix' => '',
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'number',
-      'settings' => array(),
-      'type' => 'number',
-      'weight' => 4,
-    ),
-  );
-
-  // Exported field_instance: 'node-blog-field_tags'.
-  $field_instances['node-blog-field_tags'] = array(
-    'bundle' => 'blog',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
@@ -162,9 +129,9 @@ function deninet_blog_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_tags',
-    'label' => 'tags',
-    'required' => 0,
+    'field_name' => 'field_topic',
+    'label' => 'Topic',
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -176,16 +143,15 @@ function deninet_blog_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 2,
+      'weight' => 1,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
+  t('Topic');
   t('blog_image');
-  t('deninet6_nid');
-  t('tags');
 
   return $field_instances;
 }
