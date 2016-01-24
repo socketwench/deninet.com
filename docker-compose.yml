@@ -1,4 +1,4 @@
-web:
+web.dev:
    build: .docker/web
    ports:
       - "80:80"
@@ -23,12 +23,12 @@ cli:
       - ./tests:/var/tests
    links:
       - db
-      - web
+      - web.dev
       - browser
 browser:
   hostname: browser
   image: selenium/standalone-firefox
   links:
-    - web
+    - web.dev
   ports:
     - "4444:4444"
