@@ -1,4 +1,4 @@
-web:
+deninet.dev:
    build: .docker/web
    ports:
       - "80:80"
@@ -23,12 +23,12 @@ cli:
       - ./tests:/var/tests
    links:
       - db
-      - web
+      - deninet.dev
       - browser
 browser:
   hostname: browser
   image: selenium/standalone-firefox
   links:
-    - web
+    - deninet.dev
   ports:
     - "4444:4444"
