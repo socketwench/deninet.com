@@ -1,4 +1,4 @@
-name = web.dev
+name = deninet.dev
 description = Root feature for deninet web development
 core = 7.x
 package = deninet demo
