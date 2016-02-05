@@ -50,7 +50,7 @@ function deninet_picture_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 2,
+      'weight' => 3,
     ),
   );
 
@@ -90,7 +90,7 @@ function deninet_picture_field_default_field_instances() {
       'module' => 'number',
       'settings' => array(),
       'type' => 'number',
-      'weight' => 4,
+      'weight' => 5,
     ),
   );
 
@@ -154,7 +154,7 @@ function deninet_picture_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 1,
+      'weight' => 2,
     ),
   );
 
@@ -194,7 +194,54 @@ function deninet_picture_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 3,
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance: 'node-picture-field_topic'.
+  $field_instances['node-picture-field_topic'] = array(
+    'bundle' => 'picture',
+    'default_value' => array(
+      0 => array(
+        'tid' => 'autocreate',
+        'vid' => 2,
+        'name' => 'None',
+        'vocabulary_machine_name' => 'topics',
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 4,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_topic',
+    'label' => 'Topic',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'taxonomy',
+      'settings' => array(
+        'autocomplete_path' => 'taxonomy/autocomplete',
+        'size' => 60,
+      ),
+      'type' => 'taxonomy_autocomplete',
+      'weight' => 1,
     ),
   );
 
@@ -202,6 +249,7 @@ function deninet_picture_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Body');
   t('The old deninet v6 and earlier NID. Leave blank if this is new node created on v7.');
+  t('Topic');
   t('deninet6_nid');
   t('picture_file');
   t('tags');
