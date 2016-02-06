@@ -53,4 +53,4 @@
  * @see conf_path()
  * @see http://drupal.org/documentation/install/multi-site
  */
-$sites['demo'] = 'web.dev';
+$sites['deninet.dev'] = 'deninet.dev';
