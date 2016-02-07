@@ -5,6 +5,7 @@ package = deninet demo
 version = 7.x-1.0
 dependencies[] = devel
 dependencies[] = devel_generate
+dependencies[] = deninet_demo_blog
 features[features_api][] = api:2
 no autodetect = 1
 project path = sites/web.dev/modules/features
