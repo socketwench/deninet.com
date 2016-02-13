@@ -7,11 +7,13 @@ RUN apt-get install -yq apache2
 RUN apt-get install -yq php5 php5-mysql php5-imagick php5-imap \
                         php5-mcrypt php5-curl php5-cli php5-gd \
                         php5-sqlite php5-common php-apc php-pear \
-                        php5-json php5-memcache php5-intl
+                        php5-json php5-memcache php5-intl \
+                        php5-xdebug
 
 RUN a2enmod rewrite
 
 COPY deninet.dev.conf /etc/apache2/sites-available/deninet.dev.conf
+COPY xdebug.ini /etc/php5/mods-available/xdebug.ini
 
 RUN a2dissite 000-default && \
     a2ensite deninet.dev

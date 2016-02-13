@@ -33,4 +33,5 @@ dependencies[] = deninet_sitewide_config
 dependencies[] = deninet_user
 dependencies[] = deninet_views
 dependencies[] = deninet_wiki
+dependencies[] = deninet_link
 dependencies[] = deninet_blocks
