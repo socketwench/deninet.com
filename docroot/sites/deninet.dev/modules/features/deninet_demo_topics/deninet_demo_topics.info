@@ -1,0 +1,10 @@
+name = deninet_demo_topics
+description = Provides demo topics.
+core = 7.x
+package = deninet demo
+version = 7.x-1.0
+dependencies[] = uuid
+dependencies[] = uuid_features
+dependencies[] = deninet_topics
+features[features_api][] = api:2
+features[uuid_term][] = 51e9afd5-0b71-46fb-8471-0aa7bad81c10

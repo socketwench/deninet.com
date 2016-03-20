@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+/* Text-Related Elements */
+p {
+	margin-bottom: $space;
+}
+
+/* Blockquote */
+blockquote {
+    font-style:italic;
+    border-left: 1px solid $gray;
+    color: $gray;
+	padding-left: $pad;
+	margin-bottom: $space;
+}
+
+/* Horizontal Rule */ 
+hr {
+	border: 0;
+    height: 2px;
+    background: $gray-light-2;
+    margin: $space-double 0;
+}
+
+abbr {
+    border-bottom: 1px dotted $gray;
+    cursor: help;
+}
+
+pre {
+  background: #434343;
+  font-family: 'Share Tech Mono';
+  color: white;
+}
