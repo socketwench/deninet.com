@@ -219,6 +219,10 @@ body {
   color: #333;
 }
 
+pre {
+  background: lightslategray;
+}
+
 /* Links */
 /* line 2, scss/base/_links.scss */
 a {
