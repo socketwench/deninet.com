@@ -52,12 +52,12 @@
  * element. If you need to set default font properties of any kind use the BODY
  * element as these can be overridden using font theme settings.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\0000364}}
 html {
   background: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\0000368}}
 body {
   background: #1b1b1b;
   font-family: 'Comfortaa';
@@ -71,7 +71,7 @@ body {
 /* =============================================================================
  *   HTML Elements
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\0000378}}
 h1 {
   font-family: 'Oswald';
   font-weight: normal;
@@ -80,7 +80,7 @@ h1 {
   letter-spacing: 0.02em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\0000383}}
 h2 {
   font-family: 'Oswald';
   font-weight: normal;
@@ -89,7 +89,7 @@ h2 {
   letter-spacing: 0.02em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003162}}
 pre,
 code,
 tt,
@@ -99,7 +99,7 @@ var {
   font-family: Consolas, Monaco, "Courier New", Courier, monospace, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003171}}
 pre {
   margin-left: 2em;
   border: solid 1px #cccccc;
@@ -107,12 +107,12 @@ pre {
   padding: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003178}}
 code {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003182}}
 hr {
   border: .3em dotted gray;
   height: 0;
@@ -135,7 +135,7 @@ hr {
 /*
  * Wraps all header elements - branding and .region-header
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003214}}
 #header {
   width: 96%;
   padding: 2%;
@@ -147,7 +147,7 @@ hr {
 /*
  * Wraps the sidebars the content column
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003226}}
 #columns {
   background: #eee;
 }
@@ -155,7 +155,7 @@ hr {
 /*
  * Main content column wrapper
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003234}}
 #content-column {
   margin-top: 1em;
 }
@@ -187,7 +187,7 @@ hr {
 /*
  * Wraps the header
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003284}}
 #header-wrapper {
   /* Debug styles, is this working */
   background: rgba(255, 192, 203, 0.5);
@@ -214,7 +214,7 @@ hr {
 /*
  * Footer wrapper
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003342}}
 #footer-wrapper {
   /* Debug styles, is this working? */
   background: rgba(255, 192, 203, 0.5);
@@ -229,12 +229,12 @@ hr {
 /*
  * Logo
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003363}}
 #logo {
   padding: 10px 0;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003367}}
 #logo img {
   vertical-align: bottom;
 }
@@ -245,7 +245,7 @@ hr {
 /*
  * Site name (h1)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003382}}
 #site-name {
   margin: 0;
   font-family: 'Comfortaa';
@@ -256,15 +256,15 @@ hr {
   letter-spacing: 0.03em;
   text-shadow: -1px -2px 0px #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003388}}
 #site-name a {
   color: #eee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003391}}
 #site-name a:link, #site-name a:visited {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003396}}
 #site-name a:hover, #site-name a:focus {
   text-decoration: none;
 }
@@ -272,7 +272,7 @@ hr {
 /*
  * Site slogan (h2)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003407}}
 #site-slogan {
   margin: 0;
 }
@@ -286,7 +286,7 @@ hr {
 /*
  * The main page title (h1)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003425}}
 #page-title {
   margin: 0;
 }
@@ -300,14 +300,14 @@ hr {
 /*
  * Aggregator feed source
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003443}}
 #aggregator .feed-source .feed-icon {
   display: inline;
   float: none;
   margin-right: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003450}}
 .feed-details dt,
 .feed-details dd {
   display: inline;
@@ -320,16 +320,16 @@ hr {
 /*
  * Generic styles for links. See the ul.links declaration in node and comment stylesheets
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003466}}
 ul.links {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003470}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003470}}
 ul.links.inline {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003474}}
 ul.links li {
   display: inline;
   list-style: none;
@@ -339,7 +339,7 @@ ul.links li {
 /*
  * Search results are an ordered list so reset the margin
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003485}}
 .search-results {
   margin: 0;
   padding: 0;
@@ -348,19 +348,19 @@ ul.links li {
 /*
  * Attribution message and link
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003494}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003494}}
 .attribution {
   display: block;
   opacity: 0.65;
   padding: 1em 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003500}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003500}}
 .attribution a {
   text-decoration: none;
   color: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003504}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003504}}
 .attribution a:hover, .attribution a:focus {
   text-decoration: underline;
 }
@@ -395,7 +395,7 @@ ul.links li {
 /*
  * Sidebars - targets both
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003568}}
 .sidebar .block {
   margin: 0 1em 20px 2em;
   background: #ddd;
@@ -406,7 +406,7 @@ ul.links li {
 /*
  * First sidebar
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003580}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003580}}
 .region-sidebar-first {
   margin-top: 1em;
 }
@@ -414,7 +414,7 @@ ul.links li {
 /*
  * Second sidebar
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003588}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003588}}
 .region-sidebar-second {
   margin-top: 1em;
 }
@@ -425,7 +425,7 @@ ul.links li {
 /*
  * Footer region
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003602}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003602}}
 .region-footer {
   float: left;
   clear: both;
@@ -439,7 +439,7 @@ ul.links li {
   color: #eee;
   background: #1b1b1b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003615}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003615}}
 .region-footer a {
   color: #f00;
 }
@@ -447,12 +447,12 @@ ul.links li {
 /* =============================================================================
  *   Links
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003625}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003625}}
 a {
   text-decoration: none;
   color: #600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003635}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003635}}
 a:hover, a:focus {
   text-decoration: underline;
 }
@@ -460,7 +460,7 @@ a:hover, a:focus {
 /* =============================================================================
  *   Primary, Secondary and Menu Bar region menus
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003646}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003646}}
 #primary-menu-bar {
   bottom: 0;
   position: absolute;
@@ -470,7 +470,7 @@ a:hover, a:focus {
   font-size: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003658}}
 #primary-menu-bar li.active a,
 #primary-menu-bar li.active a:hover {
   color: red;
@@ -478,13 +478,13 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003665}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003665}}
 #primary-menu-bar li a,
 #secondary-menu-bar li a {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003670}}
 #secondary-menu-bar {
   position: absolute;
   bottom: 0;
@@ -494,18 +494,18 @@ a:hover, a:focus {
   margin-bottom: 0.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003679}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003679}}
 .nav {
   clear: both;
   margin: 10px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003683}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003683}}
 .nav ul,
 .nav ul.menu {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003689}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003689}}
 .nav li,
 .nav ul.menu li {
   display: inline;
@@ -514,14 +514,14 @@ a:hover, a:focus {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003698}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003698}}
 .nav li a,
 .nav ul.menu li a {
   display: block;
   white-space: nowrap;
   padding: 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003710}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003710}}
 .nav .block {
   margin-bottom: 0;
 }
@@ -529,11 +529,11 @@ a:hover, a:focus {
 /* =============================================================================
  *   Superfish
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003720}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003720}}
 ul.sf-menu {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003723}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003723}}
 ul.sf-menu a {
   border-left: 0;
   border-top: 0;
@@ -542,11 +542,11 @@ ul.sf-menu a {
   height: 2.5em;
   line-height: 2.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003736}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003736}}
 ul.sf-menu li:hover, ul.sf-menu li.sfHover {
   outline: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003743}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003743}}
 ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
   outline: 0;
 }
@@ -554,12 +554,12 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Superfish blocks
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003759}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003759}}
 .block-superfish ul {
   margin: 0 !important;
   padding: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003770}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003770}}
 .block-superfish li {
   margin: 0 !important;
   padding: 0 !important;
@@ -568,22 +568,22 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Vertical style
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003780}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003780}}
 .sf-vertical {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003783}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003783}}
 .sf-vertical li {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003788}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003788}}
 .sf-vertical li:hover ul, .sf-vertical li.sfHover ul {
   left: 100%;
   top: 0;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003796}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003796}}
 .sf-vertical li a {
   padding: 0 10px;
 }
@@ -591,7 +591,7 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Navbar style
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003806}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003806}}
 .sf-navbar {
   padding-bottom: 0 !important;
 }
@@ -599,7 +599,7 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /*
  * Sensible padding for the default style
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003814}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003814}}
 .sf-menu.sf-style-default a {
   padding: 0 10px;
 }
@@ -607,7 +607,7 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /* =============================================================================
  *   Menu Toggles
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003824}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003824}}
 .at-mt .at-menu-toggle,
 .at-mt .at-menu-toggle ul,
 .at-mt .at-menu-toggle ul.menu {
@@ -615,11 +615,11 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
   margin-bottom: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003832}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003832}}
 .at-mt .at-menu-toggle-button {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003836}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003836}}
 .at-mt .at-menu-toggle ul a {
   padding: 0 10px;
   white-space: nowrap;
@@ -628,21 +628,21 @@ ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
 /* =============================================================================
  *   Menus, usually blocks
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003847}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003847}}
 ul.menu {
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003850}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003850}}
 ul.menu ul {
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003858}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003858}}
 ul.menu li {
   margin: 0;
 }
 
 /* If li.content exists it's a problem, so reset the padding */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003887}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003887}}
 .block .menu li.content {
   padding: 0;
 }
@@ -650,13 +650,13 @@ ul.menu li {
 /* =============================================================================
  *   Book navigation menu
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003904}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003904}}
 .book-navigation .page-up {
   /* Prevent text wrapping to a new line, assumes English "up" is used (two characters) */
   min-width: 2em;
   white-space: nowrap;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003910}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003910}}
 .book-navigation .menu {
   margin-left: 0;
 }
@@ -664,37 +664,37 @@ ul.menu li {
 /* =============================================================================
  *   Breadcrumbs
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003920}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003920}}
 #breadcrumb {
   margin: 10px 0;
   /* If the label is set to show in theme settings the label class is added */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003924}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003924}}
 #breadcrumb .breadcrumb-label {
   font-size: 1em;
   display: inline;
   padding-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003929}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003929}}
 #breadcrumb .breadcrumb-label:after {
   content: ":";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003934}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003934}}
 #breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003939}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003939}}
 #breadcrumb .with-breadcrumb-label ol {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003943}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003943}}
 #breadcrumb li {
   list-style: none;
   display: inline;
   padding-right: 0.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003948}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003948}}
 #breadcrumb li .crumb-separator {
   padding-right: 0.3em;
 }
@@ -702,31 +702,31 @@ ul.menu li {
 /* =============================================================================
  *   Pagers
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003975}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003975}}
 ul.pager {
   clear: both;
   margin: 0;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003982}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003982}}
 .item-list ul.pager li {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003987}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003987}}
 ul.pager li {
   background-image: none;
   display: inline;
   list-style-type: none;
   padding: .5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003993}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003993}}
 ul.pager li.pager-current {
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003999}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\00003999}}
 .block ul.pager li {
   margin: 0;
 }
@@ -737,7 +737,7 @@ ul.pager li.pager-current {
 /* =============================================================================
  *   Skip Navigation
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031036}}
 #skip-link {
   left: 50%;
   margin-left: -6.5em;
@@ -747,7 +747,7 @@ ul.pager li.pager-current {
   width: 12em;
   z-index: 50;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031045}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031045}}
 #skip-link a {
   background: #444;
   background: rgba(0, 0, 0, 0.6);
@@ -758,7 +758,7 @@ ul.pager li.pager-current {
   text-align: center;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031055}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031055}}
 #skip-link a:link, #skip-link a:visited {
   background: #444;
   background: rgba(0, 0, 0, 0.6);
@@ -769,7 +769,7 @@ ul.pager li.pager-current {
   text-align: center;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031066}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031066}}
 #skip-link a:hover, #skip-link a:focus, #skip-link a:active {
   outline: 0;
 }
@@ -777,26 +777,26 @@ ul.pager li.pager-current {
 /* =============================================================================
  *   Tabs (local tasks)
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031079}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031079}}
 #tasks {
   margin-bottom: 15px;
   font-family: Oswald;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031085}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031085}}
 ul.primary {
   border-bottom: none;
   border-top: solid 1px #ccc;
   margin: 0.2em 0 1em 0;
   padding: 0 0 0 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031091}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031091}}
 ul.primary li {
   display: block;
   float: left;
   margin: 0 1px -1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031096}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031096}}
 ul.primary li a {
   border-top: solid 0.3em transparent;
   border-right: none;
@@ -810,7 +810,7 @@ ul.primary li a {
   height: 1.5em;
   line-height: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031109}}
 ul.primary li a:hover, ul.primary li a:focus {
   border-top: solid 0.3em #ddd;
   border-right: none;
@@ -818,7 +818,7 @@ ul.primary li a:hover, ul.primary li a:focus {
   border-left: none;
   background: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031121}}
 ul.primary li.active a,
 ul.primary li.active a:hover,
 ul.primary li.active a:focus {
@@ -829,19 +829,19 @@ ul.primary li.active a:focus {
   background: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031134}}
 ul.secondary {
   border-bottom: 1px solid #ccc;
   margin: 1em 0 0;
   padding: 0 .3em 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031139}}
 ul.secondary li {
   border-right: 0;
   list-style: none;
   padding: 0 10px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031145}}
 ul.secondary li a:hover, ul.secondary li a.active {
   border-bottom: none;
   text-decoration: underline;
@@ -850,7 +850,7 @@ ul.secondary li a:hover, ul.secondary li a.active {
 /* =============================================================================
  *   Action links
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031159}}
 ul.action-links {
   margin: 20px 0 0;
   list-style: none;
@@ -868,11 +868,11 @@ ul.action-links {
 /*
  * When labels are set to inline in field display settings the clearfix class is automatically added
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031186}}
 .field-label-inline {
   /* Remove the margin on inline field lables to preserve vertical formatting */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031189}}
 .field-label-inline .field-label {
   margin: 0;
 }
@@ -880,7 +880,7 @@ ul.action-links {
 /*
  * Labels are h2 in Adaptivetheme. Use a strong selector to mitigate unwanted ineritance issues
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031197}}
 .field-label {
   font-size: 1em;
   font-weight: 700;
@@ -898,17 +898,17 @@ ul.action-links {
 /*
  * Taxonomy
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031226}}
 .field-type-taxonomy-term-reference {
   /* The same bottom margin as p, blockquote, ul, ol and dl */
   margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031231}}
 .field-type-taxonomy-term-reference.field-label-inline .field-items {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031236}}
 .field-type-taxonomy-term-reference.field-label-inline .field-item {
   display: inline;
   list-style: none;
@@ -954,17 +954,17 @@ ul.action-links {
 /*
  * Named fields
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031328}}
 .field-name-field-tags ul {
   list-style: none;
   display: inline;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031334}}
 .field-name-field-tags li {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031338}}
 .field-name-field-tags a {
   background: #aaa;
   border-radius: 3px 0 0 3px;
@@ -978,7 +978,7 @@ ul.action-links {
   text-decoration: none;
   -webkit-transition: color 0.2s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031352}}
 .field-name-field-tags a:before {
   background: #eee;
   border-radius: 10px;
@@ -990,7 +990,7 @@ ul.action-links {
   width: 6px;
   top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031364}}
 .field-name-field-tags a:after {
   background: #eee;
   border-bottom: 13px solid transparent;
@@ -1001,13 +1001,60 @@ ul.action-links {
   right: 0;
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031375}}
 .field-name-field-tags a:hover {
   background: #900;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031379}}
 .field-name-field-tags a:hover:after {
   border-color: transparent transparent transparent #900;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031385}}
+.field-name-field-topic ul {
+  list-style: none;
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031391}}
+.field-name-field-topic li {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031395}}
+.field-name-field-topic a {
+  background: #aaa;
+  border-radius: .2rem;
+  color: #fff;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 1em 0 1em;
+  position: relative;
+  margin: 0 1rem 1rem 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031409}}
+.field-name-field-topic a:hover {
+  background: #900;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031413}}
+.field-name-field-topic a:after {
+  content: "";
+  position: absolute;
+  top: .3rem;
+  right: -1rem;
+  bottom: auto;
+  left: auto;
+  border-width: .7rem 0 0 1rem;
+  border-color: transparent #aaa;
+  border-style: solid;
+  display: block;
+  width: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031427}}
+.field-name-field-topic a:hover:after {
+  border-color: transparent #900;
 }
 
 /*
@@ -1016,7 +1063,7 @@ ul.action-links {
 /*
  * Image Alignment Theme Settings - included here so you can easily override
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031442}}
 figure {
   float: right;
   padding-left: 2em;
@@ -1024,7 +1071,7 @@ figure {
   clear: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031402}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031449}}
 figcaption {
   text-align: center;
   font-weight: bold;
@@ -1036,7 +1083,7 @@ figcaption {
 /*
  * Float left setting
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031464}}
 .ia-l .field-type-image figure,
 .iat-l .field-type-image figure {
   margin: 5px 20px 15px 0;
@@ -1045,7 +1092,7 @@ figcaption {
 /*
  * Centered setting
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031473}}
 .ia-c .field-type-image figure,
 .iat-c .field-type-image figure {
   margin: 5px auto 15px;
@@ -1054,7 +1101,7 @@ figcaption {
 /*
  * Float right setting
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031482}}
 .ia-r .field-type-image figure,
 .iat-r .field-type-image figure {
   margin: 5px 0 15px 20px;
@@ -1066,7 +1113,7 @@ figcaption {
 /*
  * Main wrapper for most blocks, block_system_main does not have it
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031449}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031496}}
 .block {
   margin-bottom: 20px;
 }
@@ -1074,7 +1121,7 @@ figcaption {
 /*
  * Inner wrapper for most blocks, good for margin, padding and borders, block_system_main does not have it
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031504}}
 .block-inner {
   margin: 0;
   padding: 0;
@@ -1095,7 +1142,7 @@ figcaption {
 /*
  * Block title
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031490}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031537}}
 .block-title {
   margin: 0;
   border-bottom: solid 1px #c28e8e;
@@ -1110,7 +1157,7 @@ figcaption {
 /*
  * Block content wrapper
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031503}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031550}}
 .block-content {
   padding: 0 0.3em 0 0.3em;
 }
@@ -1118,12 +1165,12 @@ figcaption {
 /*
  * Match item list and block menu margin and padding
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031514}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031561}}
 .block-content ul,
 .block-content ol {
   padding: 0 0 0 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031519}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031566}}
 .block-content li {
   margin: 0;
   padding: 0;
@@ -1213,15 +1260,15 @@ figcaption {
 /* =============================================================================
  *   Node Styling
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031692}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031739}}
 .node {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031709}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031756}}
 .node .node-title {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031713}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031760}}
 .node .user-picture {
   float: right;
   padding: 0 0 0.3em 1em;
@@ -1238,15 +1285,15 @@ figcaption {
 /*
  * Wrapper for the list of comments and its titles
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031770}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031817}}
 #comments {
   margin: 1.5em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031774}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031821}}
 #comments h2.comment-title {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031778}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031825}}
 #comments h2.comment-form {
   margin: 0;
 }
@@ -1254,24 +1301,24 @@ figcaption {
 /*
  * Wrapper for a single comment
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031788}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031835}}
 .comment {
   margin-bottom: 20px;
   padding: 0.3em;
   display: table;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031802}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031849}}
 .comment .user-picture {
   width: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031806}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031853}}
 .comment .author-datetime {
   font-family: Oswald;
   font-size: 11px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031812}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031859}}
 .comment footer {
   display: table-cell;
   vertical-align: top;
@@ -1280,23 +1327,23 @@ figcaption {
   background: url("../css/images/comment-triangle.png") top right no-repeat;
   font-family: Oswald;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031821}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031868}}
 .comment nav {
   background: #fff;
   font-family: Oswald;
   letter-spacing: 0.03em;
   padding-bottom: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031827}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031874}}
 .comment nav ul {
   border-top: solid 1px #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031843}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031890}}
 .comment ul.links {
   padding-left: 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031848}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031895}}
 .comment-content {
   display: table-cell;
   vertical-align: top;
@@ -1305,7 +1352,7 @@ figcaption {
   background: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031856}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031903}}
 .comment-header {
   background: #fff;
   font-family: Oswald;
@@ -1313,7 +1360,7 @@ figcaption {
   padding: 0.3em 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031863}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031910}}
 .field-name-comment-body {
   padding: 0.3em 0.5em;
 }
@@ -1321,7 +1368,7 @@ figcaption {
 /*
  * Comment title
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031870}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031917}}
 .comment-title {
   margin: 0;
 }
@@ -1335,7 +1382,7 @@ figcaption {
 /*
  * "New" marker for comments that are new for the current user
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031902}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031949}}
 .new {
   color: #c00;
 }
@@ -1343,7 +1390,7 @@ figcaption {
 /*
  * Nested comments are indented
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031910}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031957}}
 .indented {
   margin-left: 40px;
 }
@@ -1354,17 +1401,17 @@ figcaption {
 /*
  * Wrapper for a form element (or group of form elements) and its label
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031924}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031971}}
 .form-item input.error,
 .form-item textarea.error,
 .form-item select.error {
   border: 1px solid #c00;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031930}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031977}}
 .form-item label {
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031937}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031984}}
 .form-item .description {
   font-size: 0.85em;
 }
@@ -1372,7 +1419,7 @@ figcaption {
 /*
  * Highlight marks and form required mark
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031950}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031997}}
 .marker,
 .form-required {
   color: #c00;
@@ -1381,7 +1428,7 @@ figcaption {
 /*
  * The submit button
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031964}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032011}}
 .container-inline div,
 .container-inline label {
   display: inline;
@@ -1390,7 +1437,7 @@ figcaption {
 /*
  * Define consistent borders
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031973}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032020}}
 fieldset {
   border: 1px solid #ccc;
 }
@@ -1401,7 +1448,7 @@ fieldset {
 /*
  * Buttons used by contrib modules like Media
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031987}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032034}}
 a.button {
   -moz-appearance: button;
   -webkit-appearance: button;
@@ -1410,7 +1457,7 @@ a.button {
 /*
  * Password confirmation
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000031995}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032042}}
 .password-parent,
 .confirm-parent {
   margin: 0;
@@ -1419,18 +1466,18 @@ a.button {
 /* =============================================================================
  *   Tables
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032005}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032052}}
 table {
   margin: 10px 0;
   padding: 0;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032010}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032057}}
 table.sticky-header {
   z-index: 10;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032016}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032063}}
 table,
 thead,
 tbody,
@@ -1440,27 +1487,27 @@ td {
   border-color: #ccc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032026}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032073}}
 table,
 td,
 th {
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032080}}
 caption,
 th,
 td {
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032040}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032087}}
 thead tr {
   font-weight: 700;
   background-color: #e5e5e5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032046}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032093}}
 td,
 th {
   border-bottom: 0;
@@ -1468,29 +1515,29 @@ th {
   padding: 5px 7px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032057}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032104}}
 tbody tr {
   border-top: 1px solid #ccc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032062}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032109}}
 tr {
   /* Table row striping */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032064}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032111}}
 tr.odd {
   background: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032069}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032116}}
 tr.info, tr.even, tr:nth-child(2n+2) {
   border-bottom: 0;
   background-color: #f5f5f5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032080}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032127}}
 tr.odd td.active {
   background-color: #eee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032084}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032131}}
 tr.even td.active {
   background-color: #ebebeb;
 }
@@ -1499,7 +1546,7 @@ tr.even td.active {
  * Forum tables
  * Core sets white-space to nowrap, which makes no sense
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032154}}
 #forum td.created, #forum td.posts, #forum td.topics, #forum td.last-reply, #forum td.replies, #forum td.pager {
   white-space: normal;
 }
@@ -1507,21 +1554,21 @@ tr.even td.active {
 /* =============================================================================
  *   Messages
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032170}}
 div.messages {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032175}}
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032181}}
 div.status {
   background: url("../css/images/notice.png") top repeat-x #ddffdd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032185}}
 div.warning {
   background: url("../css/images/warning.png") top repeat-x #fbf5d6;
 }
@@ -1529,7 +1576,7 @@ div.warning {
 /*
  * Unpublished nodes
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032218}}
 .node-unpublished p.unpublished,
 .comment-unpublished p.unpublished {
   color: pink;
@@ -1546,7 +1593,7 @@ div.warning {
   text-transform: uppercase;
   word-wrap: break-word;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/_custom\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/_custom\.scss}line{font-family:\00003208}}
 .ie6-7 .node-unpublished p.unpublished > *, .ie6-7
 .comment-unpublished p.unpublished > * {
   position: relative;
@@ -1555,28 +1602,28 @@ div.warning {
 /* =============================================================================
  *    Maintenance pages
  * ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032229}}
 .maintenance-page .container {
   padding: 40px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032233}}
 .maintenance-page #site-name,
 .maintenance-page #page-title {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032241}}
 .db-offline .container {
   margin: 0 auto;
   padding: 40px 0;
   width: 100%;
   max-width: 960px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032248}}
 .db-offline div.messages {
   margin: 20px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032252}}
 .db-offline #content {
   padding: 20px 0;
 }
@@ -1587,7 +1634,7 @@ div.warning {
 /*
  * Admin menu overrides
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032265}}
 #admin-menu {
   margin: 0;
   padding: 0;
@@ -1596,7 +1643,7 @@ div.warning {
 /*
  * Devel Module
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032274}}
 .dev-query {
   background: #eee;
   padding: 30px;
@@ -1605,11 +1652,11 @@ div.warning {
 /*
  * Styleguide module tweaks
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032283}}
 #styleguide-header {
   padding: 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tess\/projects\/deninet\.com\/sites\/all\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/tess\/projects\/deninet\.com\/docroot\/profiles\/deninet\/themes\/studiolights\/sass\/global\.styles\.scss}line{font-family:\000032286}}
 #styleguide-header .item-list {
   font-family: inherit;
   margin: 0 20px 20px 0;
