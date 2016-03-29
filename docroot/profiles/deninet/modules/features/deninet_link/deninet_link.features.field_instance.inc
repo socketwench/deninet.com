@@ -87,6 +87,93 @@ function deninet_link_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-link-field_tags'.
+  $field_instances['node-link-field_tags'] = array(
+    'bundle' => 'link',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 4,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_tags',
+    'label' => 'tags',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'taxonomy',
+      'settings' => array(
+        'autocomplete_path' => 'taxonomy/autocomplete',
+        'size' => 60,
+      ),
+      'type' => 'taxonomy_autocomplete',
+      'weight' => 5,
+    ),
+  );
+
+  // Exported field_instance: 'node-link-field_topic'.
+  $field_instances['node-link-field_topic'] = array(
+    'bundle' => 'link',
+    'default_value' => array(
+      0 => array(
+        'tid' => 'autocreate',
+        'vid' => 1,
+        'name' => 'Uncategorized',
+        'vocabulary_machine_name' => 'topics',
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_topic',
+    'label' => 'Topic',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'taxonomy',
+      'settings' => array(
+        'autocomplete_path' => 'taxonomy/autocomplete',
+        'size' => 60,
+      ),
+      'type' => 'taxonomy_autocomplete',
+      'weight' => 3,
+    ),
+  );
+
   // Exported field_instance: 'node-link-field_url'.
   $field_instances['node-link-field_url'] = array(
     'bundle' => 'link',
@@ -127,7 +214,7 @@ function deninet_link_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'url_external',
-      'weight' => 0,
+      'weight' => 1,
     ),
   );
 
@@ -136,6 +223,8 @@ function deninet_link_field_default_field_instances() {
   t('Body');
   t('Comment');
   t('Enter the link to share. The title field will be fetched automatically.');
+  t('Topic');
+  t('tags');
   t('url');
 
   return $field_instances;

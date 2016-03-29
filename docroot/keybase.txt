@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/socketwench
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://deninet.com
+  * I am socketwench (https://keybase.io/socketwench) on keybase.
+  * I have a public key with fingerprint 99A7 38D8 8B12 A38E BD41  130B 6B62 65EF C960 A84A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01207c56ccd762b1c0adaefd9f6a7f67be64e2251a6c34219197e6234ed3306716c60a",
+            "fingerprint": "99a738d88b12a38ebd41130b6b6265efc960a84a",
+            "host": "keybase.io",
+            "key_id": "6b6265efc960a84a",
+            "kid": "01014e11ee5edcb7a5fa941b05360131bf99dfa0abb58fd4d819d99d0b67425441600a",
+            "uid": "475c703ca90a9052bb7f7d362148c719",
+            "username": "socketwench"
+        },
+        "service": {
+            "hostname": "deninet.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1456257608,
+    "expire_in": 157680000,
+    "prev": "4c1bffd26885c844ec5d756797f4bae8464f79a34cd34f5de454090b17b3e4d7",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMN1AnicbVJrTBRXFN4VfABViEqrFoWMYNUizp2589oG46MVUIgWqLG2dpnHnd1h
+YQd2l1e3tLUxSGNRYx9g0MaIEmJ5uLZIhSqP2iqFyqM2xCKBIhKDRViwiMaQzhD9
+15ub3Nxzvu873zk51xb6GPyNNgGNtaZU7DC2NZdkGfa018e6MUGV8jCTG7Oh2Qel
+ScjpMtsUCTNhOCBwRqRoUZQYmhCAiPMSj2SJk2mekWlGQDREBEEBnhZJSAAOcAyi
+CRIiiSRxmgG0SOM8FonJit2CHBkOxe7SZDmOZ0hWYlkBEDzJIkGCAJC4QAs0QVNI
+FjmNxUKdaFWdOkMzJ/BOFKWoWkz7mGft/Q/+hW8cQAQAQhSSRIHhKZnnIBBwiqRx
+QAJB5jhJ5nFeEChWlqDEAk7SQpoFBhIUhIDGZ31nzcpBhhIZnBR5DtcuRQgCIzMS
+SRMAsiIDOB3oRA47n440tFMVbciVg+yiFcuPxLREtiIifbZ6M89BErIrduSKEtV0
+jZ3hUF2qqKZpCavLlWHSea68DB2YgwTzcwmzoNglbZAaIRs5nIpqx0xAQ4ouRdcE
+kKIJiqFxNhJDuRmKA5kVHaGFWFw7ehmUrbcjagOQJYJmWUpkIUQiJTEUzXCMDAUe
+sZCGMsPxJBQlEsqUhCAFcQ4XACOQCEoMpjeVaVcxk1bJxVv0nhWLnXdlORCW39L8
+vq/B6G+YN3eOvmAGf7+gF2s31BL47KX5YV2MeLqhTplKGBJfDk02NRdtqX6y5kZi
+QF3j2SPfrHgrxb2iJNdwsPtUqbHYu9b4bGtxs+VCYsOpq++6U6vKpyOGDYMlfW8W
+BF/J+3F7hw843JtSUPlZ/7n3GuffP3apKu7Qluy7niZvzhtFER1E7KPCiUXJNTFl
+/5av9703OJ6+2RntyrMAy73aur0rK1PD543uBbdCoxMLH/R/l3Sm6WTpwM1vdx0u
+DPGeDlrQuW7ycW/11vzm1u6Rwl//WqxuSshn4zrLz5TVXFte93hj2+/du4553O6f
+4qyBx1+17XsN9zb39/Aj0ctG9o0X7hxfFeyp2dx63Tmw8OKdVzxUWEzn1ZbJ2MCQ
+oOHb9UXLpv4+5/fJ9g8ux9e2+xx5GE4UZ8bGTzQcV28Mp30fNXMwhr99NHPBksXr
+B3fI19ubmH8O/ZnbsPtsw28DoQGrL1awSYsud/sqAfGd/lzpEr/QyaVlfcpMp1iF
+6CHfAhb0WdOUzMzJ3aUJX4x/ejLHb52fd01fTEFBW9dXT5Is0sfJPcPnu4JAdlXl
+g5ye0VVPpzdeqZjZ4xnuef3h2pQ2Krz65oT1j94D3Scejd75iOywOxPqvbH3pU1Y
+fd0c89PUnxunwpbu/zB4rnVgw9GxnghPMFj0gzx9YSURerf1Vit1ydl24suukHfG
+vl4euLp2wy/q/p1v2w58btx2/j8K08ud
+=bUeQ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/socketwench
+
+==================================================================
+

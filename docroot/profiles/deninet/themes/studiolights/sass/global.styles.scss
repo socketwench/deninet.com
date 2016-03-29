@@ -1381,6 +1381,53 @@ ul.action-links {
   }
 }
 
+.field-name-field-topic {
+  ul {
+    list-style: none;
+    display: inline;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    background: #aaa;
+    border-radius: .2rem;
+    color: #fff;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 1em 0 1em;
+    position: relative;
+    margin: 0 1rem 1rem 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+  }
+
+  a:hover {
+    background: #900;
+  }
+
+  a:after {
+    content: "";
+    position: absolute;
+    top: .3rem;
+    right: -1rem;
+    bottom: auto;
+    left: auto;
+    border-width: .7rem 0 0 1rem;
+    border-color: transparent #aaa;
+    border-style: solid;
+    display: block;
+    width: 0;
+  }
+
+  a:hover:after {
+    border-color: transparent #900;
+  }
+}
 
 /*
  * Underscores in field name are replaced with dashes

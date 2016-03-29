@@ -44,10 +44,10 @@ function deninet_link_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'title' => array(
-          'weight' => '1',
+          'weight' => '0',
         ),
         'path' => array(
-          'weight' => '3',
+          'weight' => '2',
         ),
       ),
       'display' => array(),
