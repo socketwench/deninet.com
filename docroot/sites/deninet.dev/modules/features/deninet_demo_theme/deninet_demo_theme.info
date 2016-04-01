@@ -1,0 +1,13 @@
+name = deninet demo theme
+description = Demo theme settings.
+core = 7.x
+package = deninet demo
+version = 7.x-1.0
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = theme_studiolights_files_directory
+features[variable][] = theme_studiolights_settings
+no autodetect = 1
+project path = sites/deninet.dev/modules/features

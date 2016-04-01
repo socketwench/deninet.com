@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the deninet demo theme feature.
+ */
+
+include_once 'deninet_demo_theme.features.inc';
