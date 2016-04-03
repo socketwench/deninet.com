@@ -42,7 +42,7 @@ function deninet_demo_link_uuid_features_default_content() {
   'field_topic' => array(
     'und' => array(
       0 => array(
-        'tid' => 2,
+//        'tid' => 2,
         'uuid' => 'bf722a4b-5729-404f-9a7f-e8a20b0d4610',
       ),
     ),

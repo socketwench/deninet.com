@@ -299,7 +299,7 @@ debian       latest     9a61b6b1315e   4 weeks ago       125.2 MB
   'field_topic' => array(
     'und' => array(
       0 => array(
-        'tid' => 1,
+//        'tid' => 1,
         'uuid' => '51e9afd5-0b71-46fb-8471-0aa7bad81c10',
       ),
     ),
