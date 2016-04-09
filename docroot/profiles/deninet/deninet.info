@@ -35,6 +35,5 @@ dependencies[] = deninet_views
 dependencies[] = deninet_wiki
 dependencies[] = deninet_link
 dependencies[] = deninet_blocks
-;dependencies[] = deninet_topics
-;dependencies[] = deninet_related
+dependencies[] = deninet_topics
 

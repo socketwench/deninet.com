@@ -1,0 +1,16 @@
+name = deninet_demo_tags
+core = 7.x
+package = deninet demo
+version = 7.x-1.0
+features[features_api][] = api:2
+features[taxonomy][] = tags
+features[uuid_term][] = 0addffd5-c822-4477-b84d-129a795cc4fe
+features[uuid_term][] = 8009f1ae-383b-4276-9a97-0f7b5ef73c78
+features[uuid_term][] = 855cc694-3dc0-409d-b655-baf4c7d1084f
+features[uuid_term][] = 8ef73398-5732-46e7-a04f-1f7625d4b70f
+features[uuid_term][] = bb2c350d-3279-41c5-9030-1e09a6d36d0d
+features_exclude[dependencies][taxonomy] = taxonomy
+features_exclude[dependencies][uuid] = uuid
+features_exclude[dependencies][uuid_features] = uuid_features
+no autodetect = 1
+project path = sites/deninet.dev/modules/features

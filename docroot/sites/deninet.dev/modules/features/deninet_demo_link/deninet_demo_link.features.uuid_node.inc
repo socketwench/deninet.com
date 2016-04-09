@@ -38,7 +38,14 @@ function deninet_demo_link_uuid_features_default_content() {
       ),
     ),
   ),
-  'field_tags' => array(),
+  'field_tags' => array(
+//    'und' => array(
+//      0 => array(
+//        'tid' => 10,
+//        'uuid' => 'bb2c350d-3279-41c5-9030-1e09a6d36d0d',
+//      ),
+//    ),
+  ),
   'field_topic' => array(
     'und' => array(
       0 => array(
