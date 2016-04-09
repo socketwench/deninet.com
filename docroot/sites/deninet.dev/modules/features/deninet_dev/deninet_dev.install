@@ -1,0 +1,23 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: tess
+ * Date: 4/9/16
+ * Time: 12:58 PM
+ */
+
+/**
+ * Enables content modules in order.
+ */
+function deninet_dev_install() {
+  $module_list = array(
+    'deninet_demo_topics',
+    'deninet_demo_tags',
+    'deninet_demo_blog',
+    'deninet_demo_link',
+  );
+
+  foreach ($module_list as $module_name) {
+    module_enable(array($module_name));
+  }
+}
