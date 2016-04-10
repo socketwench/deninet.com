@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the deninet demo link feature.
+ */
+
+include_once 'deninet_demo_link.features.inc';

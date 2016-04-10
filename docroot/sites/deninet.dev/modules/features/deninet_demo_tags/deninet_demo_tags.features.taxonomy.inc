@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * deninet_podcasts.features.taxonomy.inc
+ * deninet_demo_tags.features.taxonomy.inc
  */
 
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function deninet_podcasts_taxonomy_default_vocabularies() {
+function deninet_demo_tags_taxonomy_default_vocabularies() {
   return array(
     'tags' => array(
       'name' => 'Tags',
