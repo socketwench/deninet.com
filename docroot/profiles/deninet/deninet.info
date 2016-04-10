@@ -19,6 +19,7 @@ dependencies[] = field_ui
 dependencies[] = file
 
 ; Features
+dependencies[] = deninet_tags
 dependencies[] = deninet_blog
 dependencies[] = deninet_comments
 dependencies[] = deninet_content

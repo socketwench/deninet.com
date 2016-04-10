@@ -21,6 +21,7 @@ features[taxonomy][] = topics
 features[views_view][] = de_topics_featured
 features[views_view][] = de_topics_popular
 features[views_view][] = de_topics_recent
+features[views_view][] = de_topics_related
 features_exclude[uuid_term][51e9afd5-0b71-46fb-8471-0aa7bad81c10] = 51e9afd5-0b71-46fb-8471-0aa7bad81c10
 features_exclude[uuid_term][e090cbee-0566-48d5-b916-23082cd55c98] = e090cbee-0566-48d5-b916-23082cd55c98
 features_exclude[uuid_term][659b0b7a-5321-45c1-9a17-0c27f9309c1d] = 659b0b7a-5321-45c1-9a17-0c27f9309c1d
