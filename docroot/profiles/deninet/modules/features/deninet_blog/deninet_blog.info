@@ -1,7 +1,7 @@
 name = deninet Blog
 core = 7.x
 package = deninet
-version = 7.x-1.0-beta1
+version = 7.x-1.1
 project = deninet_blog
 dependencies[] = blog
 dependencies[] = deninet_sitewide_config
@@ -14,6 +14,7 @@ features[features_api][] = api:2
 features[field_base][] = field_blog_image
 features[field_instance][] = node-blog-body
 features[field_instance][] = node-blog-field_blog_image
+features[field_instance][] = node-blog-field_tags
 features[field_instance][] = node-blog-field_topic
 features[user_permission][] = create blog content
 features[user_permission][] = delete any blog content

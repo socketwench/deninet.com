@@ -304,6 +304,22 @@ debian       latest     9a61b6b1315e   4 weeks ago       125.2 MB
       ),
     ),
   ),
+  'field_tags' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 6,
+        'uuid' => '8009f1ae-383b-4276-9a97-0f7b5ef73c78',
+      ),
+      1 => array(
+        'tid' => 7,
+        'uuid' => '0addffd5-c822-4477-b84d-129a795cc4fe',
+      ),
+      2 => array(
+        'tid' => 8,
+        'uuid' => '855cc694-3dc0-409d-b655-baf4c7d1084f',
+      ),
+    ),
+  ),
   'path' => array(
     'pathauto' => 1,
   ),
@@ -596,6 +612,30 @@ dockerthingy/
       ),
     ),
   ),
+  'field_tags' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 6,
+        'uuid' => '8009f1ae-383b-4276-9a97-0f7b5ef73c78',
+      ),
+      1 => array(
+        'tid' => 7,
+        'uuid' => '0addffd5-c822-4477-b84d-129a795cc4fe',
+      ),
+      2 => array(
+        'tid' => 9,
+        'uuid' => '8ef73398-5732-46e7-a04f-1f7625d4b70f',
+      ),
+      3 => array(
+        'tid' => 10,
+        'uuid' => 'bb2c350d-3279-41c5-9030-1e09a6d36d0d',
+      ),
+      4 => array(
+        'tid' => 8,
+        'uuid' => '855cc694-3dc0-409d-b655-baf4c7d1084f',
+      ),
+    ),
+  ),
   'path' => array(
     'pathauto' => 1,
   ),
@@ -742,6 +782,22 @@ CONTAINER ID       IMAGE        COMMAND            CREATED             STATUS
       0 => array(
         'tid' => 1,
         'uuid' => '51e9afd5-0b71-46fb-8471-0aa7bad81c10',
+      ),
+    ),
+  ),
+  'field_tags' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 6,
+        'uuid' => '8009f1ae-383b-4276-9a97-0f7b5ef73c78',
+      ),
+      1 => array(
+        'tid' => 7,
+        'uuid' => '0addffd5-c822-4477-b84d-129a795cc4fe',
+      ),
+      2 => array(
+        'tid' => 8,
+        'uuid' => '855cc694-3dc0-409d-b655-baf4c7d1084f',
       ),
     ),
   ),
@@ -1233,6 +1289,30 @@ MySQL [(none)]&gt; show databases;
       ),
     ),
   ),
+  'field_tags' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 6,
+        'uuid' => '8009f1ae-383b-4276-9a97-0f7b5ef73c78',
+      ),
+      1 => array(
+        'tid' => 7,
+        'uuid' => '0addffd5-c822-4477-b84d-129a795cc4fe',
+      ),
+      2 => array(
+        'tid' => 9,
+        'uuid' => '8ef73398-5732-46e7-a04f-1f7625d4b70f',
+      ),
+      3 => array(
+        'tid' => 10,
+        'uuid' => 'bb2c350d-3279-41c5-9030-1e09a6d36d0d',
+      ),
+      4 => array(
+        'tid' => 8,
+        'uuid' => '855cc694-3dc0-409d-b655-baf4c7d1084f',
+      ),
+    ),
+  ),
   'path' => array(
     'pathauto' => 1,
   ),
@@ -1609,6 +1689,30 @@ EXPOSE 80
       0 => array(
         'tid' => 1,
         'uuid' => '51e9afd5-0b71-46fb-8471-0aa7bad81c10',
+      ),
+    ),
+  ),
+  'field_tags' => array(
+    'und' => array(
+      0 => array(
+        'tid' => 6,
+        'uuid' => '8009f1ae-383b-4276-9a97-0f7b5ef73c78',
+      ),
+      1 => array(
+        'tid' => 7,
+        'uuid' => '0addffd5-c822-4477-b84d-129a795cc4fe',
+      ),
+      2 => array(
+        'tid' => 9,
+        'uuid' => '8ef73398-5732-46e7-a04f-1f7625d4b70f',
+      ),
+      3 => array(
+        'tid' => 10,
+        'uuid' => 'bb2c350d-3279-41c5-9030-1e09a6d36d0d',
+      ),
+      4 => array(
+        'tid' => 8,
+        'uuid' => '855cc694-3dc0-409d-b655-baf4c7d1084f',
       ),
     ),
   ),

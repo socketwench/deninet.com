@@ -1,0 +1,16 @@
+name = deninet demo link
+description = Provides demo link content.
+core = 7.x
+package = deninet demo
+version = 7.x-1.0
+dependencies[] = ctools
+dependencies[] = deninet_link
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = uuid_features
+__drupal_alter_by_ref[][node][link] = link
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[uuid_node][] = 76d8d381-9ffa-4d2f-8756-a67211feb09e
+no autodetect = 1
+project path = sites/deninet.dev/modules/features
