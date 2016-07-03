@@ -7,7 +7,7 @@
 /**
  * Implements hook_form_system_theme_settings_alter().
  */
-function mortar_form_system_theme_settings_alter(&$form, &$form_state, $form_id = NULL) {
+function STARTERKIT_form_system_theme_settings_alter(&$form, &$form_state, $form_id = NULL) {
   // Work-around for a core bug affecting admin themes. See issue #943212.
   if (isset($form_id)) {
     return;
@@ -16,10 +16,10 @@ function mortar_form_system_theme_settings_alter(&$form, &$form_state, $form_id 
   // Create the form using Forms API: http://api.drupal.org/api/7
 
   /* -- Delete this line if you want to use this setting
-  $form['mortar_example'] = array(
+  $form['STARTERKIT_example'] = array(
   '#type'          => 'checkbox',
-  '#title'         => t('mortar sample setting'),
-  '#default_value' => theme_get_setting('mortar_example'),
+  '#title'         => t('STARTERKIT sample setting'),
+  '#default_value' => theme_get_setting('STARTERKIT_example'),
   '#description'   => t("This example option doesn't do anything."),
   );
   // */
