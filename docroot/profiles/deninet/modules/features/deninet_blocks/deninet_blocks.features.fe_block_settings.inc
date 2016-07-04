@@ -27,6 +27,12 @@ function deninet_blocks_default_fe_block_settings() {
         'theme' => 'adaptivetheme',
         'weight' => 0,
       ),
+      'mortar' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'mortar',
+        'weight' => 0,
+      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -58,6 +64,12 @@ function deninet_blocks_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'adaptivetheme',
         'weight' => 0,
+      ),
+      'mortar' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'mortar',
+        'weight' => -15,
       ),
       'seven' => array(
         'region' => '',
@@ -91,6 +103,12 @@ function deninet_blocks_default_fe_block_settings() {
         'theme' => 'adaptivetheme',
         'weight' => 1,
       ),
+      'mortar' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'mortar',
+        'weight' => -10,
+      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -123,6 +141,12 @@ function deninet_blocks_default_fe_block_settings() {
         'theme' => 'adaptivetheme',
         'weight' => 0,
       ),
+      'mortar' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'mortar',
+        'weight' => -11,
+      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -153,6 +177,12 @@ function deninet_blocks_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'adaptivetheme',
+        'weight' => 10,
+      ),
+      'mortar' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'mortar',
         'weight' => 10,
       ),
       'seven' => array(
@@ -187,6 +217,12 @@ function deninet_blocks_default_fe_block_settings() {
         'theme' => 'adaptivetheme',
         'weight' => 0,
       ),
+      'mortar' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'mortar',
+        'weight' => -14,
+      ),
       'seven' => array(
         'region' => 'content',
         'status' => 1,
@@ -219,6 +255,12 @@ function deninet_blocks_default_fe_block_settings() {
         'theme' => 'adaptivetheme',
         'weight' => 0,
       ),
+      'mortar' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'mortar',
+        'weight' => -13,
+      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
@@ -250,6 +292,12 @@ function deninet_blocks_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'adaptivetheme',
         'weight' => 0,
+      ),
+      'mortar' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'mortar',
+        'weight' => -12,
       ),
       'seven' => array(
         'region' => '',
