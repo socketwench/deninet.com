@@ -15,6 +15,7 @@ html {
   // On short pages, we want any background gradients to fill the entire height
   // of the browser.
   min-height: 100%;
+  line-height: 1.5;
 }
 
 body {
@@ -26,4 +27,5 @@ body {
   padding: 0;
   color: color(text);
   background-color: color(text-bg);
+  letter-spacing: 0.03em;
 }

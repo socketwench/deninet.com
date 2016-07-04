@@ -12,13 +12,17 @@
 %header {
   @extend %clearfix;
 
-  background: url('../images/stripe2.png') top left repeat-x #333333;
+  background: url('../images/stripe2.png') bottom left repeat-x #333333;
+
+  padding: 2%;
 
   // Wrapping link for logo.
   &__logo {
     float: left;
     margin: 0 10px 0 0;
     padding: 0;
+
+    max-width: 100%; height: auto;
 
     @include rtl() {
       float: right;
@@ -45,9 +49,11 @@
 
   // The link around the name of the website.
   &__site-link {
+    color: #eee;
+    text-shadow: -1px -2px 0px #000;
     &:link,
     &:visited {
-      color: color(text);
+      //color: color(text);
       text-decoration: none;
     }
 

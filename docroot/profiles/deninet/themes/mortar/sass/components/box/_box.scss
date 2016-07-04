@@ -24,8 +24,8 @@
 .box,
 %box {
   @include margin-bottom(1);
-  border: 5px solid color(border);
-  padding: 1em;
+  //border: 5px solid color(border);
+  //padding: 1em;
 
   // Sass compiles this to the selector: .box__title, %box__title {}
   // The "__" (double underscore) is part of a BEM naming convention that
@@ -48,7 +48,7 @@
   &:hover,
   &.is-focus,
   &--is-focus {
-    border-color: color(text);
+    //border-color: color(text);
   }
 
   // Sass compiles this to the selector: .box--highlight, %box--highlight {}
@@ -75,12 +75,25 @@
 // have no idea what I'm talking about, you could just use this fugly CSS
 // selector:
 //
-// [class$="sidebar"] {
-//   .block {
-//     @extend %box;
-//   }
-//
-//   .block__title {
-//     @extend %box__title;
-//   }
-// }
+ [class$="sidebar"] {
+   .block {
+     @extend %box;
+
+     background: #ddd;
+     border-right: solid 2px #bbb;
+     border-bottom: solid 2px #bbb;
+
+     margin: 0 1em 20px 2em;
+
+     a {
+       text-decoration: none;
+     }
+   }
+
+   .block__title {
+     @extend %box__title;
+     margin: 0;
+     border-bottom: solid 1px #c28e8e;
+     padding: 0.1em 0.3em 0 0.3em;
+   }
+ }

@@ -43,3 +43,14 @@ template,
 [hidden] {
   display: none;
 }
+
+footer {
+  background: #333;
+  text-align: center;
+  color: white;
+  padding: 2%;
+
+  a {
+    color: #f00;
+  }
+}

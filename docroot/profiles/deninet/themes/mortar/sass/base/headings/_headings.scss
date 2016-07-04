@@ -19,6 +19,10 @@ h1,
   @include margin-top(1, xxl);
   @include margin-bottom(1, xxl);
   font-family: Oswald, Impact, Sans-Serif;
+  font-weight: normal;
+  a {
+    text-decoration: none;
+  }
 }
 
 h2,
@@ -27,6 +31,10 @@ h2,
   @include margin-top(1, xl);
   @include margin-bottom(1, xl);
   font-family: Oswald, Impact, Sans-Serif;
+  font-weight: normal;
+  a {
+    text-decoration: none;
+  }
 }
 
 h3,
@@ -35,6 +43,10 @@ h3,
   @include margin-top(1, l);
   @include margin-bottom(1, l);
   font-family: Oswald, Impact, Sans-Serif;
+  font-weight: normal;
+  a {
+    text-decoration: none;
+  }
 }
 
 h4,
@@ -43,6 +55,10 @@ h4,
   @include margin-top(1, m);
   @include margin-bottom(1, m);
   font-family: Oswald, Impact, Sans-Serif;
+  font-weight: normal;
+  a {
+    text-decoration: none;
+  }
 }
 
 h5,
@@ -51,6 +67,10 @@ h5,
   @include margin-top(1, s);
   @include margin-bottom(1, s);
   font-family: Oswald, Impact, Sans-Serif;
+  font-weight: normal;
+  a {
+    text-decoration: none;
+  }
 }
 
 h6,
@@ -59,4 +79,8 @@ h6,
   @include margin-top(1, xs);
   @include margin-bottom(1, xs);
   font-family: Oswald, Impact, Sans-Serif;
+  font-weight: normal;
+  a {
+    text-decoration: none;
+  }
 }
