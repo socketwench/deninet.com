@@ -76,6 +76,10 @@ footer a {
   color: #f00;
 }
 
+footer p {
+  text-align: center;
+}
+
 a {
   color: #600;
   -webkit-text-decoration-skip: objects;
