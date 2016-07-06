@@ -29,11 +29,8 @@
 
   @include margin((2 - $tab-height) 0 0);
   @include line-height($tab-height);
-  @if support-for(ie, 9) {
-    // IE 9 and earlier don't understand gradients.
-    border-bottom: 1px solid color(tabs-border) \0/ie;
-  }
-  background-image: linear-gradient(to top, color(tabs-border) 1px, transparent 1px);
+
+  border-top: 1px solid color(tabs-border);
   padding: 0 2px;
   list-style: none;
   white-space: nowrap;
@@ -44,51 +41,50 @@
 
   &__tab {
     float: left;
-    margin: 0 3px;
-    border: 1px solid color(tabs-border);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    margin: 0 0.3rem;
+    border-top: 0.3rem solid color(tabs-border);
+
+    font-family: 'Oswald';
+
     // Allow the tabs gradient to appear just below the tab.
-    border-bottom-color: transparent;
+    border-top-color: transparent;
     @if support-for(ie, 9) {
       // IE 9 and earlier don't understand gradients.
-      border-bottom: 0 \0/ie;
+      border-top: 0 \0/ie;
     }
     // Clip the background colors on tab links.
     overflow: hidden;
-    background: color(tab-bg);
 
     @include rtl() {
       float: right;
     }
 
     &.is-active {
-      // Cover the tabs gradient with the same color as the background.
-      border-bottom-color: color(tabs-bg);
+      border-top-color: color(tabs-border);
+    }
+
+    &:focus,
+    &:hover {
+      border-top-color: lighten(color(tabs-border), 5%);
     }
   }
 
   &__tab-link {
-    @include padding(0 1);
+    @include padding(0 .5);
     display: block;
     text-decoration: none;
     transition: color .3s, background .3s, border .3s;
     text-shadow: color(tab-text-shadow) 0 1px 0;
 
     color: color(tab);
-    background: color(tab-bg);
+    //background: color(tab-bg);
     letter-spacing: 1px;
-
-    &:focus,
-    &:hover {
-      background: lighten(color(tab-bg), 5%);
-    }
 
     &:active,
     &.is-active,
     &--is-active {
-      background: color(tabs-bg);
-      text-shadow: none;
+      //background: color(tabs-bg);
+      //text-shadow: none;
     }
   }
 

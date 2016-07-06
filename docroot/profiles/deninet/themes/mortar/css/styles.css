@@ -1325,9 +1325,7 @@ span.field-label {
 .tabs {
   margin: 0.96429rem 0 0;
   line-height: 1.60714rem;
-  border-bottom: 1px solid #cccccc \0/ie;
-  background-image: -webkit-linear-gradient(bottom, #cccccc 1px, transparent 1px);
-  background-image: linear-gradient(to top, #cccccc 1px, transparent 1px);
+  border-top: 1px solid #ccc;
   padding: 0 2px;
   list-style: none;
   white-space: nowrap;
@@ -1341,14 +1339,12 @@ span.field-label {
 
 .tabs__tab {
   float: left;
-  margin: 0 3px;
-  border: 1px solid #cccccc;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-color: transparent;
-  border-bottom: 0 \0/ie;
+  margin: 0 0.3rem;
+  border-top: 0.3rem solid #ccc;
+  font-family: 'Oswald';
+  border-top-color: transparent;
+  border-top: 0 \0/ie;
   overflow: hidden;
-  background: #dddddd;
 }
 
 [dir="rtl"] .tabs__tab {
@@ -1356,28 +1352,22 @@ span.field-label {
 }
 
 .tabs__tab.is-active {
-  border-bottom-color: #eee;
+  border-top-color: #ccc;
+}
+
+.tabs__tab:focus, .tabs__tab:hover {
+  border-top-color: #d9d9d9;
 }
 
 .tabs__tab-link {
-  padding: 0 1.28571rem;
+  padding: 0 0.64286rem;
   display: block;
   text-decoration: none;
   -webkit-transition: color .3s, background .3s, border .3s;
   transition: color .3s, background .3s, border .3s;
   text-shadow: #fff 0 1px 0;
   color: #000;
-  background: #dddddd;
   letter-spacing: 1px;
-}
-
-.tabs__tab-link:focus, .tabs__tab-link:hover {
-  background: #eaeaea;
-}
-
-.tabs__tab-link:active, .tabs__tab-link.is-active, .tabs__tab-link--is-active {
-  background: #eee;
-  text-shadow: none;
 }
 
 .tabs--off,
@@ -1396,8 +1386,8 @@ span.field-label {
 
 .tabs + .tabs--secondary {
   margin-top: 0;
-  background-image: -webkit-linear-gradient(bottom, #cccccc 1px, transparent 1px);
-  background-image: linear-gradient(to top, #cccccc 1px, transparent 1px);
+  background-image: -webkit-linear-gradient(bottom, #ccc 1px, transparent 1px);
+  background-image: linear-gradient(to top, #ccc 1px, transparent 1px);
 }
 
 .tabs--secondary .tabs__tab {
@@ -1415,7 +1405,7 @@ span.field-label {
 }
 
 .tabs--secondary .tabs__tab-link {
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   border-radius: 18px;
   color: #666666;
   background: #f1f1f1;
@@ -1909,6 +1899,111 @@ tr.drag-previous {
 .table-drag__tree-child-horizontal,
 .tree-child-horizontal {
   background-position: -11px center;
+}
+
+.field-name-field-tags .field-item {
+  display: inline;
+}
+
+.field-name-field-tags ul {
+  list-style: none;
+  display: inline;
+  padding: 0;
+}
+
+.field-name-field-tags li {
+  display: inline;
+}
+
+.field-name-field-tags a {
+  background: #aaa;
+  border-radius: 3px 0 0 3px;
+  color: #fff;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 2em 0 1em;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.field-name-field-tags a:before {
+  background: #eee;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  right: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+.field-name-field-tags a:after {
+  background: #eee;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #aaa;
+  border-top: 13px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.field-name-field-tags a:hover {
+  background: #900;
+}
+
+.field-name-field-tags a:hover:after {
+  border-color: transparent transparent transparent #900;
+}
+
+.field-name-field-topic ul {
+  list-style: none;
+  display: inline;
+  padding: 0;
+}
+
+.field-name-field-topic li {
+  display: inline;
+}
+
+.field-name-field-topic a {
+  background: #aaa;
+  border-radius: .2rem;
+  color: #fff;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 1em 0 1em;
+  position: relative;
+  margin: 0 1rem 1rem 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.field-name-field-topic a:hover {
+  background: #900;
+}
+
+.field-name-field-topic a:after {
+  content: "";
+  position: absolute;
+  top: .3rem;
+  right: -1rem;
+  bottom: auto;
+  left: auto;
+  border-width: .7rem 0 0 1rem;
+  border-color: transparent #aaa;
+  border-style: solid;
+  display: block;
+  width: 0;
+}
+
+.field-name-field-topic a:hover:after {
+  border-color: transparent #900;
 }
 
 /*# sourceMappingURL=styles.css.map */

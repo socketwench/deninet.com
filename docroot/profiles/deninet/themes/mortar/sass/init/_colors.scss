@@ -81,8 +81,8 @@ $chroma: add-colors('functional', (
   error:                  'red',
   error-bg:               (error lighten 57%),
 
-  tabs-border:            'border',
-  tabs-bg:                'text-bg',
+  tabs-border:            #ccc,
+  tabs-bg:                transparent,
   tab:                    'text',
   tab-text-shadow:        'white',
   tab-bg:                 ('grey-light' lighten 6.66%),
