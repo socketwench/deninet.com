@@ -136,3 +136,15 @@ function STARTERKIT_preprocess_comment(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 }
 // */
+
+function mortar_links__system_secondary_menu($variables) {
+  global $user;
+
+  $build = array(
+    '#theme' => 'user_picture',
+    '#account' => $user,
+  );
+  $picture = drupal_render($build);
+
+  return '<ul><li>' . $picture . theme_links($variables) . '</li></ul>';
+}

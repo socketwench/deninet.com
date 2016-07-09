@@ -43,8 +43,8 @@ function deninet_install_tasks() {
 function deninet_set_theme() {
   $enable = array(
     'adaptivetheme',
-    'theme_default' => 'studiolights',
-    'admin_theme' => 'seven',
+    'theme_default' => 'mortar',
+    'admin_theme' => 'ember',
   );
   theme_enable($enable);
 

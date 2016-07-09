@@ -71,6 +71,7 @@
   // The secondary menu (login, etc.)
   &__secondary-menu {
     float: right;
+    position: relative;
 
     @include rtl() {
       float: left;

@@ -209,3 +209,58 @@
   }
 }
 
+nav.header__secondary-menu {
+  .user-picture {
+    img {
+      height: 4rem;
+      width: auto;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  a{
+    display:block;
+    padding:0 10px;
+    line-height: 2rem;
+    color:#000;
+    text-decoration:none;
+
+    &:hover{
+      background: #666;
+      color: #fff;
+    }
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  ul li {
+    display: inline-block;
+  }
+
+  ul ul {
+    display: none;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+  }
+
+  ul ul li {
+    background-color: #eee;
+  }
+
+  ul li:hover > ul {
+    display:inherit;
+  }
+
+  ul ul li {
+    width:15rem;
+    float:none;
+    display:list-item;
+    position: relative;
+  }
+
+}

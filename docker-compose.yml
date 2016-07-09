@@ -25,6 +25,9 @@ cli:
       - db
       - deninet.dev
       - browser
+   environment:
+      - DRUPAL_USER=admin
+      - DRUPAL_PASSWORD=password
 browser:
   hostname: browser
   image: selenium/standalone-firefox

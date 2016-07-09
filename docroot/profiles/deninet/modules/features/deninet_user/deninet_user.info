@@ -1,7 +1,7 @@
 name = deninet User
 core = 7.x
 package = deninet
-version = 7.x-1.0-beta1
+version = 7.x-1.2
 project = deninet_user
 dependencies[] = deninet_sitewide_config
 dependencies[] = features

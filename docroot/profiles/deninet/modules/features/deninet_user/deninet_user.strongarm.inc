@@ -258,7 +258,7 @@ Your account on [site:name] has been canceled.
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_picture_default';
-  $strongarm->value = '';
+  $strongarm->value = '/profiles/deninet/themes/mortar/images/user.png';
   $export['user_picture_default'] = $strongarm;
 
   $strongarm = new stdClass();
