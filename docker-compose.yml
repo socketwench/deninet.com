@@ -5,7 +5,7 @@ services:
      ports:
         - "80:80"
      volumes:
-        - ./docroot:/var/www
+        - ./docroot:/var/www/html
   db:
      image: mariadb
      ports:
@@ -20,8 +20,9 @@ services:
   cli:
      build: .docker/cli
      volumes:
-        - ./docroot:/var/www
         - ./tests:/var/tests
+     volumes_from:
+        - deninet.dev
      environment:
         - DRUPAL_USER=admin
         - DRUPAL_PASSWORD=password
