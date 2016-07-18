@@ -1,37 +1,35 @@
-deninet.dev:
-   build: .docker/web
-   ports:
-      - "80:80"
-   volumes:
-      - ./docroot:/var/www
-   links:
-      - db
-db:
-   build: .docker/db
-   ports:
-      - 3306:3306
-   environment:
-      - MYSQL_DB=deninet_com
-      - MYSQL_USER=deninet
-      - MYSQL_PASS=thisisawesome
-   volumes:
-      - /var/lib/mysql
-cli:
-   build: .docker/cli
-   volumes:
-      - ./docroot:/var/www
-      - ./tests:/var/tests
-   links:
-      - db
-      - deninet.dev
-      - browser
-   environment:
-      - DRUPAL_USER=admin
-      - DRUPAL_PASSWORD=password
-browser:
-  hostname: browser
-  image: selenium/standalone-firefox
-  links:
-    - deninet.dev
-  ports:
-    - "4444:4444"
+version: '2'
+services:
+  deninet.dev:
+     build: .docker/web
+     ports:
+        - "80:80"
+     volumes:
+        - ./docroot:/var/www
+  db:
+     image: mariadb
+     ports:
+        - 3306:3306
+     environment:
+        - MYSQL_ROOT_PASSWORD=root
+        - MYSQL_DATABASE=deninet_com
+        - MYSQL_USER=deninet
+        - MYSQL_PASSWORD=thisisawesome
+     volumes:
+        - /var/lib/mysql
+  cli:
+     build: .docker/cli
+     volumes:
+        - ./docroot:/var/www
+        - ./tests:/var/tests
+     environment:
+        - DRUPAL_USER=admin
+        - DRUPAL_PASSWORD=password
+        - MYSQL_DATABASE=deninet_com
+        - MYSQL_USER=deninet
+        - MYSQL_PASSWORD=thisisawesome
+  browser:
+    hostname: browser
+    image: selenium/standalone-firefox
+    ports:
+      - "4444:4444"

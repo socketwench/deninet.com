@@ -5,7 +5,7 @@ DRUPAL_PASSWORD=${DRUPAL_PASSWORD:-password}
 
 drush si --uri=http://deninet.dev \
          --root=/var/www \
-         --db-url=mysql://${DB_1_ENV_MYSQL_USER}:${DB_ENV_MYSQL_PASS}@db/${DB_1_ENV_MYSQL_DB} \
+         --db-url=mysql://${MYSQL_USER}:${MYSQL_PASSWORD}@db/${MYSQL_DATABASE} \
          -y deninet \
          --sites-subdir=deninet.dev \
          --account-name=$DRUPAL_USER \
