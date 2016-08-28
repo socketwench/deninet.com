@@ -1,0 +1,8 @@
+---
+- hosts: all
+  roles:
+    - apt-update
+    - users
+    - drupal-apache
+    - mysql
+    - php

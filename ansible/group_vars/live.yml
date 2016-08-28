@@ -1,0 +1,11 @@
+---
+web_user_name: "deninet"
+web_user_path: "/home/{{ web_user_name }}"
+vhost: {
+      servername: "deninet.com",
+      serveradmin: "deninet@deninet.com",
+      serveraliases: ["www.deninet.com", "deninet.org", "www.deninet.org"],
+      documentroot: "{{ web_user_path }}/sites/deninet.com",
+      errorlog: "{{ web_user_path }}/logs/error.log",
+      accesslog: "{{ web_user_path }}/logs/access.log"
+    }

@@ -1,0 +1,31 @@
+---
+- name: create web user
+  user:
+    name: "{{ web_user_name }}"
+    shell: /bin/bash
+    group: "www-data"
+    groups: sudo
+    createhome: yes
+    home: "{{ web_user_path }}"
+    state: present
+- name: create web home directory
+  file:
+    path: "{{ web_user_path }}"
+    state: directory
+    owner: "{{ web_user_name }}"
+    group: "www-data"
+    mode: "0755"
+- name: create logs directory
+  file:
+    path: "{{ web_user_path }}/logs"
+    state: directory
+    owner: "{{ web_user_name }}"
+    group: "www-data"
+    mode: "0755"
+- name: create sites directory
+  file:
+    path: "{{ web_user_path }}/sites"
+    state: directory
+    owner: "{{ web_user_name }}"
+    group: "www-data"
+    mode: "0755"

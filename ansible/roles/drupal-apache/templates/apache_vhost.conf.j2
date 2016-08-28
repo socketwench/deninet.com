@@ -1,0 +1,20 @@
+<VirtualHost *:80>
+  ServerName  {{ vhost.servername }}
+  DocumentRoot {{ vhost.documentroot }}
+{% if vhost.serveradmin is defined %}
+  ServerAdmin {{ vhost.serveradmin }}
+{% endif %}
+{% for serveralias in vhost.serveraliases %}
+  ServerAlias {{ serveralias }}
+{% endfor %}
+	<Directory {{ vhost.documentroot }}>
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride All
+		Order allow,deny
+		allow from all
+	</Directory>
+
+	ErrorLog {{ vhost.errorlog }}
+	LogLevel warn
+	CustomLog {{ vhost.accesslog }} combined
+</VirtualHost>

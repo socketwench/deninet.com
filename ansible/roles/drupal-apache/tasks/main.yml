@@ -1,0 +1,23 @@
+---
+- name: install apache
+  apt:
+    name: apache2
+    state: present
+- name: enable apache start at boot
+  service:
+    name: apache2
+    state: started
+    enabled: yes
+- name: enable rewrite
+  apache2_module:
+    name: rewrite
+    state: present
+- name: configure vhosts
+  template:
+    src: apache_vhost.conf.j2
+    dest: "/etc/apache2/sites-available/001_{{vhost.servername}}"
+- name: enable site
+  shell: "a2ensite 001_{{vhost.servername}}"
+  args:
+    creates: "/etc/apache2/sites-enabled/001_{{vhost.servername}}"
+  notify: restart apache
