@@ -1,0 +1,40 @@
+---
+web_user_name: "deninet"
+web_user_group: "www-data"
+web_user_path: "/home/{{ web_user_name }}"
+vhost: {
+      servername: "deninet.com",
+      serveradmin: "deninet@deninet.com",
+      serveraliases: ["www.deninet.com", "deninet.org", "www.deninet.org"],
+      documentroot: "{{ web_user_path }}/sites/deninet.com",
+      errorlog: "{{ web_user_path }}/logs/error.log",
+      accesslog: "{{ web_user_path }}/logs/access.log"
+    }
+
+# Site backup settings
+####
+# This should be {{ web_user_path }}/sites/deninet.com, but I was stupid and
+# used Git for deployment on a server. BAD WENCH! BAD!
+#
+web_dir_path: "{{ web_user_path }}/git"
+####
+site_backup_dir: "{{ web_user_path }}/site-backups"
+site_backup_prefix: "deninet_drupal8_"
+site_backup_owner: "{{ web_user_name }}"
+site_backup_group: "{{ web_user_group }}"
+site_backup_clear_age: "3d"
+
+# DB backup settings
+db_name: "deninet_drupal7"
+db_host: "127.0.0.1"
+db_port: "3306"
+db_user: "{{ vault_db_user }}"
+db_password: "{{ vault_db_password }}"
+db_backup_dir: "{{ web_user_path }}/db-backups"
+db_backup_owner: "{{ web_user_name }}"
+db_backup_group: "{{ web_user_group }}"
+db_backup_clear_age: "3d"
+
+# Fetch backup settings
+fetch_local_db_backup_dir: "{{ playbook_dir }}/../db-backups"
+fetch_local_site_backup_dir: "{{ playbook_dir }}/../site-backups"

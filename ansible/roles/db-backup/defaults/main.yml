@@ -1,0 +1,4 @@
+---
+db_backup_clear_age: 5d
+db_backup_path: "{{ db_backup_dir }}/{{ db_name }}_{{lookup('pipe','date +%Y%m%d%H%M%S')}}.sql.gz"
+db_backup_dir_mode: "0755"
