@@ -29,6 +29,10 @@ services:
         - MYSQL_DATABASE=deninet_com
         - MYSQL_USER=deninet
         - MYSQL_PASSWORD=thisisawesome
+  memcache:
+    image: memcached
+    ports:
+      - "11211:11211"
   browser:
     hostname: browser
     image: selenium/standalone-firefox
