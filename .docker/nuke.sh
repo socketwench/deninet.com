@@ -12,7 +12,7 @@ echo "Killing all containers..."
 docker kill $(docker ps -q)
 
 echo "Deleting all containers..."
-docker rm $(docker ps -qa)
+docker rm -v $(docker ps -qa)
 
 echo "Deleting all images..."
 docker rmi $(docker images -q)
