@@ -1,11 +1,17 @@
 version: '2'
 services:
   deninet.dev:
-     build: .docker/web
-     ports:
-        - "80:80"
-     volumes:
-        - ./docroot:/var/www/html
+    build: .docker/web
+    ports:
+      - "80:80"
+    volumes:
+      - ./docroot:/var/www/html
+    depends_on:
+      - php
+  php:
+    build: .docker/php
+    volumes:
+      - ./docroot:/var/www/html
   db:
      image: mariadb
      ports:
@@ -17,6 +23,7 @@ services:
         - MYSQL_PASSWORD=thisisawesome
      volumes:
         - /var/lib/mysql
+        - ./db-backups:/tmp/db-backups
   cli:
      build: .docker/cli
      volumes:
@@ -30,7 +37,7 @@ services:
         - MYSQL_USER=deninet
         - MYSQL_PASSWORD=thisisawesome
   memcache:
-    image: memcached
+    image: memcached:alpine
     ports:
       - "11211:11211"
   browser:
