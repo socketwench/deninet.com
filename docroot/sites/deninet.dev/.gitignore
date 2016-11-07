@@ -1,0 +1,3 @@
+# Specifically include global settings and docker-specific settings.
+!settings.php
+!settings.docker.php
