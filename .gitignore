@@ -3,7 +3,7 @@ docroot/sites/*/settings*.php
 
 # Ignore paths that contain user-generated content.
 docroot/sites/*/files
-dockroot/sites/*/private
+docroot/sites/*/private
 
 docroot/files/*
 .idea
