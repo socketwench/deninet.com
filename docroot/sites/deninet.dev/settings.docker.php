@@ -38,15 +38,15 @@ $conf['stage_file_proxy_sslversion'] = '3';
 /**
  * Memcache configuration.
  */
-// $conf['memcache_extension'] = 'Memcached';
-// $conf['cache_backends'][] = 'profiles/deninet/modules/contrib/memcache_storage/memcache_storage.inc';
-// $conf['cache_default_class'] = 'MemcacheStorage';
-// $conf['cache_class_cache_form'] = 'DrupalDatabaseCache';
-// $conf['cache_class_cache_update'] = 'DrupalDatabaseCache';
+$conf['memcache_extension'] = 'Memcached';
+$conf['cache_backends'][] = 'profiles/deninet/modules/contrib/memcache_storage/memcache_storage.inc';
+$conf['cache_default_class'] = 'MemcacheStorage';
+$conf['cache_class_cache_form'] = 'DrupalDatabaseCache';
+$conf['cache_class_cache_update'] = 'DrupalDatabaseCache';
 // $conf['lock_inc'] = 'profiles/deninet/modules/contrib/memcache_storage/includes/lock.inc';
-// $conf['memcache_storage_persistent_connection'] = TRUE;
-// $conf['memcache_storage_key_prefix'] = getenv('MYSQL_DATABASE'),;
-// $conf['memcache_servers'] = array(
-//   'memcache:11211' => 'default',
-// );
-// $conf['memcache_storage_compress_data'] = TRUE;
+$conf['memcache_storage_persistent_connection'] = TRUE;
+$conf['memcache_storage_key_prefix'] = getenv('MYSQL_DATABASE');
+$conf['memcache_servers'] = array(
+  'memcached:11211' => 'default',
+);
+$conf['memcache_storage_compress_data'] = TRUE;
