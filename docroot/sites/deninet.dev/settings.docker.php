@@ -5,9 +5,9 @@ $databases = array (
   array (
     'default' =>
     array (
-      'database' => 'deninet_com', #getenv('MYSQL_DATABASE'),
-      'username' => 'deninet', #getenv('MYSQL_USER'),
-      'password' => 'sadklfjoaiupoiasdufp', #getenv('MYSQL_PASSWORD'),
+      'database' => getenv('MYSQL_DATABASE'),
+      'username' => getenv('MYSQL_USER'),
+      'password' => getenv('MYSQL_PASSWORD'),
       'host' => 'db',
       'port' => '',
       'driver' => 'mysql',
