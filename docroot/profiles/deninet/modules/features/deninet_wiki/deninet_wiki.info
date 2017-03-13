@@ -9,6 +9,7 @@ dependencies[] = deninet_sitewide_config
 dependencies[] = deninet_topics
 dependencies[] = features
 dependencies[] = node
+dependencies[] = options
 dependencies[] = strongarm
 dependencies[] = text
 features[ctools][] = strongarm:strongarm:1

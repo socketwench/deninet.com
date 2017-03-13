@@ -105,7 +105,7 @@ function deninet_picture_field_default_field_instances() {
         'module' => 'galleryformatter',
         'settings' => array(
           'link_to_full' => 1,
-          'link_to_full_style' => 0,
+          'link_to_full_style' => 'galleryformatter_slide',
           'linking_method' => 'show_full_link',
           'modal' => 'none',
           'slide_style' => 'galleryformatter_slide',
@@ -235,12 +235,12 @@ function deninet_picture_field_default_field_instances() {
     ),
     'widget' => array(
       'active' => 0,
-      'module' => 'taxonomy',
+      'module' => 'options',
       'settings' => array(
         'autocomplete_path' => 'taxonomy/autocomplete',
         'size' => 60,
       ),
-      'type' => 'taxonomy_autocomplete',
+      'type' => 'options_select',
       'weight' => 1,
     ),
   );

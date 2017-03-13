@@ -9,6 +9,7 @@ dependencies[] = features
 dependencies[] = galleryformatter
 dependencies[] = image
 dependencies[] = node
+dependencies[] = options
 dependencies[] = strongarm
 dependencies[] = text
 features[ctools][] = strongarm:strongarm:1
