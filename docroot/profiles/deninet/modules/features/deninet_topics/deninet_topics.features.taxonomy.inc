@@ -13,7 +13,7 @@ function deninet_topics_taxonomy_default_vocabularies() {
       'name' => 'Topics',
       'machine_name' => 'topics',
       'description' => 'Category for content',
-      'hierarchy' => 0,
+      'hierarchy' => 1,
       'module' => 'taxonomy',
       'weight' => 0,
     ),

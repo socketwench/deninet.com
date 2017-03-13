@@ -66,8 +66,8 @@ function deninet_podcasts_field_default_field_instances() {
         'settings' => array(
           'autoplay' => 0,
           'backgroundColor' => '000000',
-          'mode' => 'single',
-          'muted' => 0,
+          'mode' => 'playlist',
+          'muted' => FALSE,
           'preload' => 'metadata',
           'repeat' => 'none',
           'solution' => 'html, flash',
@@ -191,12 +191,12 @@ function deninet_podcasts_field_default_field_instances() {
     ),
     'widget' => array(
       'active' => 0,
-      'module' => 'taxonomy',
+      'module' => 'options',
       'settings' => array(
         'autocomplete_path' => 'taxonomy/autocomplete',
         'size' => 60,
       ),
-      'type' => 'taxonomy_autocomplete',
+      'type' => 'options_select',
       'weight' => 1,
     ),
   );

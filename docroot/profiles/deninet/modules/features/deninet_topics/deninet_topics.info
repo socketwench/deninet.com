@@ -18,6 +18,7 @@ features[field_base][] = field_featured
 features[field_base][] = field_topic
 features[field_instance][] = taxonomy_term-topics-field_featured
 features[taxonomy][] = topics
+features[variable][] = pathauto_taxonomy_term_topics_pattern
 features[views_view][] = de_topics_featured
 features[views_view][] = de_topics_popular
 features[views_view][] = de_topics_recent

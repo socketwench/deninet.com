@@ -1,51 +1,52 @@
 version: '2'
 services:
-  # data:
-  #   image: tianon/true
-  #   volumes:
-  #     - ./docroot:/var/www/html
-  deninet.dev:
-    build: .docker/web
+  web:
+    image: ten7/dockstack-php-apache:5.6
     ports:
       - "80:80"
-    volumes_from:
-      - php
-    depends_on:
-      - php
-  php:
-    build: .docker/php
-    volumes:
-      - ./docroot:/var/www/html
     env_file:
       - .env
+    volumes:
+      - ./docroot:/var/www/html
   db:
-    image: wodby/drupal-mariadb
+    image: ten7/dockstack-mysql
+    ports:
+      - 3306:3306
     env_file:
       - .env
     volumes:
       - /var/lib/mysql
       - ./db-backups:/tmp/db-backups
-  # cli:
-  #   build: .docker/cli
-  #   volumes_from:
-  #     - php
+  memcached:
+    image: memcached:1.4-alpine
+  pma:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      PHP_UPLOAD_MAX_FILESIZE: 1G
+      PHP_MAX_INPUT_VARS: 1G
+    ports:
+     - "8001:80"
+    env_file:
+     - .env
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "8002:8025"
+  # solr:
+  #   image: ten7/dockstack-solr:5.5
   #   env_file:
   #     - .env
+  #   ports:
+  #     - "8003:8983"
   # varnish:
-  #   image: wodby/drupal-varnish
-  #   # restart: always
+  #   image: ten7/dockstack-varnish:4.0
   #   depends_on:
-  #     - deninet.dev
+  #     - web
   #   env_file:
   #     - .env
   #   ports:
   #     - "8004:6081" # HTTP Proxy
   #     - "8005:6082" # Control terminal
-  # memcache:
-  #   image: memcached:alpine
-    # restart: always
-  # browser:
-  #   hostname: browser
-  #   image: selenium/standalone-firefox
-  #   ports:
-  #     - "4444:4444"
