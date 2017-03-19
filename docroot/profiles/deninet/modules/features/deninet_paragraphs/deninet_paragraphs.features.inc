@@ -24,6 +24,11 @@ function deninet_paragraphs_paragraphs_info() {
       'bundle' => 'simple_text',
       'locked' => '1',
     ),
+    'text_with_image' => array(
+      'name' => 'Text with image',
+      'bundle' => 'text_with_image',
+      'locked' => '1',
+    ),
   );
   return $items;
 }

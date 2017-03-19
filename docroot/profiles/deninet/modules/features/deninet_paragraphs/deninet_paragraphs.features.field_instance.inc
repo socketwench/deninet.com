@@ -166,11 +166,146 @@ function deninet_paragraphs_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance:
+  // 'paragraphs_item-text_with_image-field_para_image'.
+  $field_instances['paragraphs_item-text_with_image-field_para_image'] = array(
+    'bundle' => 'text_with_image',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => 'medium',
+        ),
+        'type' => 'image',
+        'weight' => 1,
+      ),
+      'paragraphs_editor_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
+      ),
+    ),
+    'entity_type' => 'paragraphs_item',
+    'field_name' => 'field_para_image',
+    'label' => 'Image',
+    'required' => 1,
+    'settings' => array(
+      'alt_field' => 0,
+      'default_image' => 0,
+      'file_directory' => '[current-user:uid]/[current-page:query:Y]/[current-page:query:M]/[current-page:query:d]/[current-page:title]',
+      'file_extensions' => 'png gif jpg jpeg svg',
+      'max_filesize' => '3 MB',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'paragraphs_item-text_with_image-field_para_orientation'.
+  $field_instances['paragraphs_item-text_with_image-field_para_orientation'] = array(
+    'bundle' => 'text_with_image',
+    'default_value' => array(
+      0 => array(
+        'value' => 'text_then_image',
+      ),
+    ),
+    'deleted' => 0,
+    'description' => 'The orientation of the text and the image in the direction of reading.',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
+      ),
+      'paragraphs_editor_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'paragraphs_item',
+    'field_name' => 'field_para_orientation',
+    'label' => 'Orientation',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance: 'paragraphs_item-text_with_image-field_para_text'.
+  $field_instances['paragraphs_item-text_with_image-field_para_text'] = array(
+    'bundle' => 'text_with_image',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+      'paragraphs_editor_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'paragraphs_item',
+    'field_name' => 'field_para_text',
+    'label' => 'Text',
+    'required' => 1,
+    'settings' => array(
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+      ),
+      'type' => 'text_textarea',
+      'weight' => 2,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Audio Playlist');
   t('Gallery');
+  t('Image');
+  t('Orientation');
   t('Text');
+  t('The orientation of the text and the image in the direction of reading.');
 
   return $field_instances;
 }
